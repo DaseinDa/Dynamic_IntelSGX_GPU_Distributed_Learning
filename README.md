@@ -6,7 +6,6 @@
 
 The main.cpp file is at ./LeNet/server_sgx/ServerSGX/main.cpp
 ```
-//Enter the Makefile root directory:././server_sgx
 g++17
 gcc11
 cuda 12.3
@@ -18,6 +17,7 @@ openmp
 # Run
 
 ```
+//Enter the Makefile root directory:././server_sgx
 $ make
 $ ./main
 ```
