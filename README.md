@@ -9,7 +9,8 @@ The main.cpp file is at ./LeNet/server_sgx/ServerSGX/main.cpp
 //Enter the Makefile root directory:././server_sgx
 g++17
 gcc11
-cuda12.3
+cuda 12.3
+cudnn 8.9.7
 Intel SGX 2.23
 socket
 openmp
