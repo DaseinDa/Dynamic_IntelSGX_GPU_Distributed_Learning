@@ -1,0 +1,438 @@
+SGX class initial enclave of eid: 2 here
+Data loader work success
+Here is the 0.000000 batch
+time of data initialization in non-secure world: 25
+Time execution conv on GPU is:1.7015166282653809
+The time of a relu is: 4
+The time of a maxpool is: 1
+Time execution conv on GPU is:1.6418051719665527
+The time of a relu is: 10
+The time of a maxpool is: 1
+Time execution conv on GPU is:4.763232946395874
+The time of a relu is: 58
+Time execution fc on GPU is:3.22855281829834
+torch.Size([1, 120])
+torch.Size([120, 10])
+The time of a relu is: 105
+The time of a grad_relu is: 122
+Time execution grad_fc on GPU is:2.6356146335601807
+The time of a grad_relu is: 2
+Time execution grad_conv on GPU is:3.6968889236450195
+torch.Size([120, 16, 5, 5])
+The time of a grad_maxpool is: 112
+The time of a grad_relu is: 107
+Time execution grad_conv on GPU is:5.521535396575928
+torch.Size([16, 6, 5, 5])
+The time of a grad_maxpool is: 102
+The time of a grad_relu is: 8
+Time execution grad_conv on GPU is:4.369129180908203
+torch.Size([6, 3, 5, 5])
+relu time average each iteration:177
+grad relu time average each iteration:239
+maxpool time average each iteration:2
+grad maxpool time average each iteration:214
+Here is the 0.000100 batch
+time of data initialization in non-secure world: 55914
+Time execution conv on GPU is:4.837901592254639
+The time of a relu is: 107
+The time of a maxpool is: 99
+Time execution conv on GPU is:6.479115962982178
+The time of a relu is: 77
+The time of a maxpool is: 123
+Time execution conv on GPU is:4.280361890792847
+The time of a relu is: 95
+Time execution fc on GPU is:2.6641957759857178
+torch.Size([1, 120])
+torch.Size([120, 10])
+The time of a relu is: 90
+The time of a grad_relu is: 94
+Time execution grad_fc on GPU is:5.198554754257202
+The time of a grad_relu is: 42
+Time execution grad_conv on GPU is:3.903282403945923
+torch.Size([120, 16, 5, 5])
+The time of a grad_maxpool is: 100
+The time of a grad_relu is: 112
+Time execution grad_conv on GPU is:5.619985342025757
+torch.Size([16, 6, 5, 5])
+The time of a grad_maxpool is: 142
+The time of a grad_relu is: 99
+Time execution grad_conv on GPU is:5.119236469268799
+torch.Size([6, 3, 5, 5])
+relu time average each iteration:273
+grad relu time average each iteration:293
+maxpool time average each iteration:112
+grad maxpool time average each iteration:228
+Here is the 0.000200 batch
+time of data initialization in non-secure world: 132820
+Time execution conv on GPU is:4.446661472320557
+The time of a relu is: 122
+The time of a maxpool is: 107
+Time execution conv on GPU is:4.72351336479187
+The time of a relu is: 117
+The time of a maxpool is: 88
+Time execution conv on GPU is:3.438750982284546
+The time of a relu is: 25
+Time execution fc on GPU is:1.8118093013763428
+torch.Size([1, 120])
+torch.Size([120, 10])
+The time of a relu is: 5
+The time of a grad_relu is: 20
+Time execution grad_fc on GPU is:2.9992918968200684
+The time of a grad_relu is: 2
+Time execution grad_conv on GPU is:1.85292387008667
+torch.Size([120, 16, 5, 5])
+The time of a grad_maxpool is: 2
+The time of a grad_relu is: 1
+Time execution grad_conv on GPU is:1.7194128036499023
+torch.Size([16, 6, 5, 5])
+The time of a grad_maxpool is: 2
+The time of a grad_relu is: 2
+Time execution grad_conv on GPU is:1.6735336780548096
+torch.Size([6, 3, 5, 5])
+relu time average each iteration:271.667
+grad relu time average each iteration:203.667
+maxpool time average each iteration:139.667
+grad maxpool time average each iteration:153.333
+Here is the 0.000300 batch
+time of data initialization in non-secure world: 181545
+Time execution conv on GPU is:1.5435559749603271
+The time of a relu is: 2
+The time of a maxpool is: 2
+Time execution conv on GPU is:1.5407235622406006
+The time of a relu is: 2
+The time of a maxpool is: 2
+Time execution conv on GPU is:1.5484189987182617
+The time of a relu is: 2
+Time execution fc on GPU is:0.8096857070922852
+torch.Size([1, 120])
+torch.Size([120, 10])
+The time of a relu is: 3
+The time of a grad_relu is: 9
+Time execution grad_fc on GPU is:1.6258466243743896
+The time of a grad_relu is: 2
+Time execution grad_conv on GPU is:1.6437549591064453
+torch.Size([120, 16, 5, 5])
+The time of a grad_maxpool is: 5
+The time of a grad_relu is: 3
+Time execution grad_conv on GPU is:1.6728832721710205
+torch.Size([16, 6, 5, 5])
+The time of a grad_maxpool is: 2
+The time of a grad_relu is: 2
+Time execution grad_conv on GPU is:1.6804866790771484
+torch.Size([6, 3, 5, 5])
+relu time average each iteration:206
+grad relu time average each iteration:156.75
+maxpool time average each iteration:105.75
+grad maxpool time average each iteration:116.75
+Here is the 0.000400 batch
+time of data initialization in non-secure world: 206274
+Time execution conv on GPU is:1.5369367599487305
+The time of a relu is: 2
+The time of a maxpool is: 2
+Time execution conv on GPU is:1.537384033203125
+The time of a relu is: 5
+The time of a maxpool is: 3
+Time execution conv on GPU is:1.5455806255340576
+The time of a relu is: 5
+Time execution fc on GPU is:0.8131318092346191
+torch.Size([1, 120])
+torch.Size([120, 10])
+The time of a relu is: 2
+The time of a grad_relu is: 8
+Time execution grad_fc on GPU is:1.6070520877838135
+The time of a grad_relu is: 2
+Time execution grad_conv on GPU is:1.6412091255187988
+torch.Size([120, 16, 5, 5])
+The time of a grad_maxpool is: 6
+The time of a grad_relu is: 3
+Time execution grad_conv on GPU is:1.6767997741699219
+torch.Size([16, 6, 5, 5])
+The time of a grad_maxpool is: 2
+The time of a grad_relu is: 2
+Time execution grad_conv on GPU is:1.683758020401001
+torch.Size([6, 3, 5, 5])
+relu time average each iteration:167.6
+grad relu time average each iteration:128.4
+maxpool time average each iteration:85.6
+grad maxpool time average each iteration:95
+Here is the 0.000500 batch
+time of data initialization in non-secure world: 231479
+Time execution conv on GPU is:1.5467240810394287
+The time of a relu is: 3
+The time of a maxpool is: 2
+Time execution conv on GPU is:1.548297643661499
+The time of a relu is: 3
+The time of a maxpool is: 2
+Time execution conv on GPU is:1.5302531719207764
+The time of a relu is: 2
+Time execution fc on GPU is:0.8071732521057129
+torch.Size([1, 120])
+torch.Size([120, 10])
+The time of a relu is: 2
+The time of a grad_relu is: 8
+Time execution grad_fc on GPU is:1.6007840633392334
+The time of a grad_relu is: 2
+Time execution grad_conv on GPU is:1.6314334869384766
+torch.Size([120, 16, 5, 5])
+The time of a grad_maxpool is: 4
+The time of a grad_relu is: 3
+Time execution grad_conv on GPU is:1.6899161338806152
+torch.Size([16, 6, 5, 5])
+The time of a grad_maxpool is: 1
+The time of a grad_relu is: 0
+Time execution grad_conv on GPU is:1.658165454864502
+torch.Size([6, 3, 5, 5])
+relu time average each iteration:141.333
+grad relu time average each iteration:109.167
+maxpool time average each iteration:72
+grad maxpool time average each iteration:80
+Here is the 0.000600 batch
+time of data initialization in non-secure world: 257229
+Time execution conv on GPU is:1.5451180934906006
+The time of a relu is: 3
+The time of a maxpool is: 2
+Time execution conv on GPU is:1.561650276184082
+The time of a relu is: 2
+The time of a maxpool is: 2
+Time execution conv on GPU is:1.5513348579406738
+The time of a relu is: 2
+Time execution fc on GPU is:0.8157413005828857
+torch.Size([1, 120])
+torch.Size([120, 10])
+The time of a relu is: 3
+The time of a grad_relu is: 8
+Time execution grad_fc on GPU is:1.6189777851104736
+The time of a grad_relu is: 3
+Time execution grad_conv on GPU is:1.6456117630004883
+torch.Size([120, 16, 5, 5])
+The time of a grad_maxpool is: 5
+The time of a grad_relu is: 3
+Time execution grad_conv on GPU is:1.653601884841919
+torch.Size([16, 6, 5, 5])
+The time of a grad_maxpool is: 2
+The time of a grad_relu is: 2
+Time execution grad_conv on GPU is:1.6749300956726074
+torch.Size([6, 3, 5, 5])
+relu time average each iteration:122.571
+grad relu time average each iteration:95.8571
+maxpool time average each iteration:62.2857
+grad maxpool time average each iteration:69.5714
+Here is the 0.000700 batch
+time of data initialization in non-secure world: 282424
+Time execution conv on GPU is:1.5384976863861084
+The time of a relu is: 2
+The time of a maxpool is: 2
+Time execution conv on GPU is:1.5452213287353516
+The time of a relu is: 2
+The time of a maxpool is: 2
+Time execution conv on GPU is:1.537283182144165
+The time of a relu is: 4
+Time execution fc on GPU is:0.8100342750549316
+torch.Size([1, 120])
+torch.Size([120, 10])
+The time of a relu is: 2
+The time of a grad_relu is: 8
+Time execution grad_fc on GPU is:1.6275286674499512
+The time of a grad_relu is: 2
+Time execution grad_conv on GPU is:1.628495693206787
+torch.Size([120, 16, 5, 5])
+The time of a grad_maxpool is: 2
+The time of a grad_relu is: 2
+Time execution grad_conv on GPU is:1.6620230674743652
+torch.Size([16, 6, 5, 5])
+The time of a grad_maxpool is: 2
+The time of a grad_relu is: 2
+Time execution grad_conv on GPU is:1.7030179500579834
+torch.Size([6, 3, 5, 5])
+relu time average each iteration:108.5
+grad relu time average each iteration:85.625
+maxpool time average each iteration:55
+grad maxpool time average each iteration:61.375
+Here is the 0.000800 batch
+time of data initialization in non-secure world: 307935
+Time execution conv on GPU is:1.5413827896118164
+The time of a relu is: 2
+The time of a maxpool is: 3
+Time execution conv on GPU is:1.543125867843628
+The time of a relu is: 3
+The time of a maxpool is: 2
+Time execution conv on GPU is:1.794985055923462
+The time of a relu is: 4
+Time execution fc on GPU is:0.80682373046875
+torch.Size([1, 120])
+torch.Size([120, 10])
+The time of a relu is: 2
+The time of a grad_relu is: 7
+Time execution grad_fc on GPU is:1.6204521656036377
+The time of a grad_relu is: 3
+Time execution grad_conv on GPU is:1.6468963623046875
+torch.Size([120, 16, 5, 5])
+The time of a grad_maxpool is: 2
+The time of a grad_relu is: 2
+Time execution grad_conv on GPU is:1.6543445587158203
+torch.Size([16, 6, 5, 5])
+The time of a grad_maxpool is: 3
+The time of a grad_relu is: 2
+Time execution grad_conv on GPU is:1.6740968227386475
+torch.Size([6, 3, 5, 5])
+relu time average each iteration:97.6667
+grad relu time average each iteration:77.6667
+maxpool time average each iteration:49.4444
+grad maxpool time average each iteration:55.1111
+Here is the 0.000900 batch
+time of data initialization in non-secure world: 333830
+Time execution conv on GPU is:1.617337942123413
+The time of a relu is: 3
+The time of a maxpool is: 2
+Time execution conv on GPU is:1.5484299659729004
+The time of a relu is: 3
+The time of a maxpool is: 3
+Time execution conv on GPU is:1.5430612564086914
+The time of a relu is: 2
+Time execution fc on GPU is:0.8025410175323486
+torch.Size([1, 120])
+torch.Size([120, 10])
+The time of a relu is: 2
+The time of a grad_relu is: 6
+Time execution grad_fc on GPU is:1.623885154724121
+The time of a grad_relu is: 2
+Time execution grad_conv on GPU is:1.6023480892181396
+torch.Size([120, 16, 5, 5])
+The time of a grad_maxpool is: 2
+The time of a grad_relu is: 2
+Time execution grad_conv on GPU is:1.6590771675109863
+torch.Size([16, 6, 5, 5])
+The time of a grad_maxpool is: 1
+The time of a grad_relu is: 1
+Time execution grad_conv on GPU is:1.6765952110290527
+torch.Size([6, 3, 5, 5])
+relu time average each iteration:88.9
+grad relu time average each iteration:71
+maxpool time average each iteration:45
+grad maxpool time average each iteration:49.9
+Here is the 0.001000 batch
+time of data initialization in non-secure world: 359476
+Time execution conv on GPU is:1.5348742008209229
+The time of a relu is: 3
+The time of a maxpool is: 3
+Time execution conv on GPU is:1.5341885089874268
+The time of a relu is: 2
+The time of a maxpool is: 2
+Time execution conv on GPU is:1.5291852951049805
+The time of a relu is: 2
+Time execution fc on GPU is:0.8246922492980957
+torch.Size([1, 120])
+torch.Size([120, 10])
+The time of a relu is: 2
+The time of a grad_relu is: 6
+Time execution grad_fc on GPU is:1.6174333095550537
+The time of a grad_relu is: 2
+Time execution grad_conv on GPU is:1.6357684135437012
+torch.Size([120, 16, 5, 5])
+The time of a grad_maxpool is: 3
+The time of a grad_relu is: 2
+Time execution grad_conv on GPU is:1.6418728828430176
+torch.Size([16, 6, 5, 5])
+The time of a grad_maxpool is: 3
+The time of a grad_relu is: 2
+Time execution grad_conv on GPU is:1.6748571395874023
+torch.Size([6, 3, 5, 5])
+relu time average each iteration:81.6364
+grad relu time average each iteration:65.6364
+maxpool time average each iteration:41.3636
+grad maxpool time average each iteration:45.9091
+Here is the 0.001100 batch
+time of data initialization in non-secure world: 385025
+Time execution conv on GPU is:1.5456926822662354
+The time of a relu is: 2
+The time of a maxpool is: 2
+Time execution conv on GPU is:1.5275754928588867
+The time of a relu is: 2
+The time of a maxpool is: 2
+Time execution conv on GPU is:1.5561935901641846
+The time of a relu is: 5
+Time execution fc on GPU is:0.8106403350830078
+torch.Size([1, 120])
+torch.Size([120, 10])
+The time of a relu is: 2
+The time of a grad_relu is: 6
+Time execution grad_fc on GPU is:1.6079869270324707
+The time of a grad_relu is: 2
+Time execution grad_conv on GPU is:1.6367030143737793
+torch.Size([120, 16, 5, 5])
+The time of a grad_maxpool is: 3
+The time of a grad_relu is: 2
+Time execution grad_conv on GPU is:1.6725919246673584
+torch.Size([16, 6, 5, 5])
+The time of a grad_maxpool is: 2
+The time of a grad_relu is: 2
+Time execution grad_conv on GPU is:1.6656537055969238
+torch.Size([6, 3, 5, 5])
+relu time average each iteration:75.75
+grad relu time average each iteration:61.1667
+maxpool time average each iteration:38.25
+grad maxpool time average each iteration:42.5
+Here is the 0.001200 batch
+time of data initialization in non-secure world: 410340
+Time execution conv on GPU is:1.5369176864624023
+The time of a relu is: 2
+The time of a maxpool is: 3
+Time execution conv on GPU is:1.5465271472930908
+The time of a relu is: 2
+The time of a maxpool is: 2
+Time execution conv on GPU is:1.5484490394592285
+The time of a relu is: 2
+Time execution fc on GPU is:0.8030633926391602
+torch.Size([1, 120])
+torch.Size([120, 10])
+The time of a relu is: 2
+The time of a grad_relu is: 7
+Time execution grad_fc on GPU is:1.6228244304656982
+The time of a grad_relu is: 2
+Time execution grad_conv on GPU is:1.6459081172943115
+torch.Size([120, 16, 5, 5])
+The time of a grad_maxpool is: 4
+The time of a grad_relu is: 3
+Time execution grad_conv on GPU is:1.6709823608398438
+torch.Size([16, 6, 5, 5])
+The time of a grad_maxpool is: 3
+The time of a grad_relu is: 3
+Time execution grad_conv on GPU is:1.6762518882751465
+torch.Size([6, 3, 5, 5])
+relu time average each iteration:70.5385
+grad relu time average each iteration:57.6154
+maxpool time average each iteration:35.6923
+grad maxpool time average each iteration:39.7692
+Here is the 0.001300 batch
+time of data initialization in non-secure world: 435597
+Time execution conv on GPU is:1.5378508567810059
+The time of a relu is: 2
+The time of a maxpool is: 2
+Time execution conv on GPU is:1.545494794845581
+The time of a relu is: 2
+The time of a maxpool is: 2
+Time execution conv on GPU is:1.536015272140503
+The time of a relu is: 5
+Time execution fc on GPU is:0.8070354461669922
+torch.Size([1, 120])
+torch.Size([120, 10])
+The time of a relu is: 2
+The time of a grad_relu is: 8
+Time execution grad_fc on GPU is:1.6234261989593506
+The time of a grad_relu is: 2
+Time execution grad_conv on GPU is:1.639922857284546
+torch.Size([120, 16, 5, 5])
+The time of a grad_maxpool is: 4
+The time of a grad_relu is: 3
+Time execution grad_conv on GPU is:1.652705192565918
+torch.Size([16, 6, 5, 5])
+The time of a grad_maxpool is: 2
+The time of a grad_relu is: 2
+Time execution grad_conv on GPU is:1.6751995086669922
+torch.Size([6, 3, 5, 5])
+relu time average each iteration:66.2857
+grad relu time average each iteration:54.5714
+maxpool time average each iteration:33.4286
+grad maxpool time average each iteration:37.3571
+Here is the 0.001400 batch
+time of data initialization in non-secure world: 461149

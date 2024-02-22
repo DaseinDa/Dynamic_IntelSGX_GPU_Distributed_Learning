@@ -1,0 +1,1711 @@
+SGX class initial enclave of eid: 2 here
+Data loader work success
+Here is the 0.000000 batch
+time of data initialization in non-secure world: 28
+Time execution conv padding 1 on GPU is:1808.1891536712646
+Here is relu_sgx
+The time of a relu is: 1037
+time of relu computation in  sgx secure world: 17
+Here is maxpool kernel size of 2 hhhh
+The time of a maxpool is: 569
+Time execution conv padding 1 on GPU is:1766.5891647338867
+Here is relu_sgx
+The time of a relu is: 28
+Time execution resbconv padding1 on GPU is:1975.2342700958252
+Here is relu_sgx
+The time of a relu is: 25
+Time execution conv padding 1 on GPU is:1721.1096286773682
+Here is relu_sgx
+The time of a relu is: 26
+Time execution resbconv padding1 on GPU is:1744.8985576629639
+Here is relu_sgx
+The time of a relu is: 26
+Time execution conv 32 on GPU is:1700.7167339324951
+Here is relu_sgx
+The time of a relu is: 12
+Time execution res1D conv on GPU is:1781.6808223724365
+Here is relu_sgx
+The time of a relu is: 12
+Time execution conv padding 1 on GPU is:1857.6879501342773
+Here is relu_sgx
+The time of a relu is: 14
+Time execution resbconv padding1 on GPU is:1829.7221660614014
+Here is relu_sgx
+The time of a relu is: 12
+Time execution conv 32 on GPU is:1666.5623188018799
+Here is relu_sgx
+The time of a relu is: 8
+Time execution res1D conv on GPU is:1775.5482196807861
+Here is relu_sgx
+The time of a relu is: 4
+Time execution conv padding 1 on GPU is:2075.4849910736084
+Here is relu_sgx
+The time of a relu is: 4
+Time execution resbconv padding1 on GPU is:1670.182466506958
+Here is relu_sgx
+The time of a relu is: 5
+Time execution conv 32 on GPU is:1891.2816047668457
+Here is relu_sgx
+The time of a relu is: 3
+Time execution res1D conv on GPU is:1729.9692630767822
+Here is relu_sgx
+The time of a relu is: 3
+Time execution conv padding 1 on GPU is:2014.0380859375
+Here is relu_sgx
+The time of a relu is: 4
+Time execution resbconv padding1 on GPU is:1736.7854118347168
+Here is relu_sgx
+The time of a relu is: 3
+Here is maxpool kernel size of 2 hhhh
+The time of a maxpool is: 3
+torch.Size([100, 512])
+torch.Size([512, 10])
+Time execution conv on fc GPU is:1851.6924381256104
+Here is relu_sgx
+The time of a relu is: 1
+Here is grad_relu_sgx
+The time of a grad_relu is: 8
+Time execution grad_fc on GPU is:1658.4467887878418
+Here is grad fc
+Here is grad maxpool kernel size of 2 hhhh
+The time of a grad_maxpool is: 4
+Here is grad_relu_sgx
+The time of a grad_relu is: 3
+Time execution grad_res_conv on GPU is:2173.2089519500732
+Here is grad_relu_sgx
+The time of a grad_relu is: 5
+Time execution grad conv padding1 on GPU is:1988.022804260254
+Here is grad_relu_sgx
+The time of a grad_relu is: 6
+Time execution res1D grad conv on GPU is:1818.8121318817139
+Here is grad_relu_sgx
+The time of a grad_relu is: 3
+Time execution grad_conv 32 on GPU is:1704.1878700256348
+Here is grad_relu_sgx
+The time of a grad_relu is: 5
+Time execution grad_res_conv on GPU is:2085.48641204834
+Here is grad_relu_sgx
+The time of a grad_relu is: 4
+Time execution grad conv padding1 on GPU is:1953.892707824707
+Here is grad_relu_sgx
+The time of a grad_relu is: 5
+Time execution res1D grad conv on GPU is:1980.7100296020508
+Here is grad_relu_sgx
+The time of a grad_relu is: 5
+Time execution grad_conv 32 on GPU is:1715.7576084136963
+Here is grad_relu_sgx
+The time of a grad_relu is: 6
+Time execution grad_res_conv on GPU is:1947.6499557495117
+Here is grad_relu_sgx
+The time of a grad_relu is: 12
+Time execution grad conv padding1 on GPU is:1707.3280811309814
+Here is grad_relu_sgx
+The time of a grad_relu is: 12
+Time execution res1D grad conv on GPU is:1938.3604526519775
+Here is grad_relu_sgx
+The time of a grad_relu is: 8
+Time execution grad_conv 32 on GPU is:1692.272424697876
+Here is grad_relu_sgx
+The time of a grad_relu is: 24
+Time execution grad_res_conv on GPU is:1741.5721416473389
+Here is grad_relu_sgx
+The time of a grad_relu is: 15
+Time execution grad conv padding1 on GPU is:2021.1949348449707
+Here is grad_relu_sgx
+The time of a grad_relu is: 23
+Time execution grad_res_conv on GPU is:2048.8901138305664
+Here is grad_relu_sgx
+The time of a grad_relu is: 14
+Time execution grad conv padding1 on GPU is:1692.992925643921
+Here is grad maxpool kernel size of 2 hhhh
+The time of a grad_maxpool is: 818
+Here is grad_relu_sgx
+The time of a grad_relu is: 85
+Time execution grad conv padding1 on GPU is:2107.060670852661
+relu time average each iteration:1227
+grad relu time average each iteration:243
+maxpool time average each iteration:572
+grad maxpool time average each iteration:822
+Here is the 0.010000 batch
+time of data initialization in non-secure world: 4622
+Time execution conv padding 1 on GPU is:1760.040283203125
+Here is relu_sgx
+The time of a relu is: 85
+time of relu computation in  sgx secure world: 9
+Here is maxpool kernel size of 2 hhhh
+The time of a maxpool is: 36
+Time execution conv padding 1 on GPU is:1892.453908920288
+Here is relu_sgx
+The time of a relu is: 8
+Time execution resbconv padding1 on GPU is:1974.3719100952148
+Here is relu_sgx
+The time of a relu is: 23
+Time execution conv padding 1 on GPU is:1795.9492206573486
+Here is relu_sgx
+The time of a relu is: 22
+Time execution resbconv padding1 on GPU is:1911.0500812530518
+Here is relu_sgx
+The time of a relu is: 24
+Time execution conv 32 on GPU is:1773.5850811004639
+Here is relu_sgx
+The time of a relu is: 13
+Time execution res1D conv on GPU is:2225.7750034332275
+Here is relu_sgx
+The time of a relu is: 13
+Time execution conv padding 1 on GPU is:1887.1080875396729
+Here is relu_sgx
+The time of a relu is: 11
+Time execution resbconv padding1 on GPU is:2142.9407596588135
+Here is relu_sgx
+The time of a relu is: 16
+Time execution conv 32 on GPU is:1865.8106327056885
+Here is relu_sgx
+The time of a relu is: 8
+Time execution res1D conv on GPU is:1785.8595848083496
+Here is relu_sgx
+The time of a relu is: 3
+Time execution conv padding 1 on GPU is:1681.5009117126465
+Here is relu_sgx
+The time of a relu is: 4
+Time execution resbconv padding1 on GPU is:1884.0842247009277
+Here is relu_sgx
+The time of a relu is: 4
+Time execution conv 32 on GPU is:1778.3203125
+Here is relu_sgx
+The time of a relu is: 2
+Time execution res1D conv on GPU is:2064.8763179779053
+Here is relu_sgx
+The time of a relu is: 3
+Time execution conv padding 1 on GPU is:1885.737657546997
+Here is relu_sgx
+The time of a relu is: 4
+Time execution resbconv padding1 on GPU is:1729.6316623687744
+Here is relu_sgx
+The time of a relu is: 3
+Here is maxpool kernel size of 2 hhhh
+The time of a maxpool is: 2
+torch.Size([100, 512])
+torch.Size([512, 10])
+Time execution conv on fc GPU is:1655.3359031677246
+Here is relu_sgx
+The time of a relu is: 2
+Here is grad_relu_sgx
+The time of a grad_relu is: 7
+Time execution grad_fc on GPU is:1923.3462810516357
+Here is grad fc
+Here is grad maxpool kernel size of 2 hhhh
+The time of a grad_maxpool is: 4
+Here is grad_relu_sgx
+The time of a grad_relu is: 3
+Time execution grad_res_conv on GPU is:1932.1703910827637
+Here is grad_relu_sgx
+The time of a grad_relu is: 5
+Time execution grad conv padding1 on GPU is:1743.774652481079
+Here is grad_relu_sgx
+The time of a grad_relu is: 5
+Time execution res1D grad conv on GPU is:1773.6001014709473
+Here is grad_relu_sgx
+The time of a grad_relu is: 3
+Time execution grad_conv 32 on GPU is:1933.443546295166
+Here is grad_relu_sgx
+The time of a grad_relu is: 4
+Time execution grad_res_conv on GPU is:1742.4657344818115
+Here is grad_relu_sgx
+The time of a grad_relu is: 4
+Time execution grad conv padding1 on GPU is:1722.794532775879
+Here is grad_relu_sgx
+The time of a grad_relu is: 4
+Time execution res1D grad conv on GPU is:1915.2822494506836
+Here is grad_relu_sgx
+The time of a grad_relu is: 4
+Time execution grad_conv 32 on GPU is:1825.5350589752197
+Here is grad_relu_sgx
+The time of a grad_relu is: 6
+Time execution grad_res_conv on GPU is:1708.1329822540283
+Here is grad_relu_sgx
+The time of a grad_relu is: 12
+Time execution grad conv padding1 on GPU is:1852.9651165008545
+Here is grad_relu_sgx
+The time of a grad_relu is: 13
+Time execution res1D grad conv on GPU is:1934.4878196716309
+Here is grad_relu_sgx
+The time of a grad_relu is: 7
+Time execution grad_conv 32 on GPU is:1667.2608852386475
+Here is grad_relu_sgx
+The time of a grad_relu is: 22
+Time execution grad_res_conv on GPU is:1890.6569480895996
+Here is grad_relu_sgx
+The time of a grad_relu is: 15
+Time execution grad conv padding1 on GPU is:1924.0550994873047
+Here is grad_relu_sgx
+The time of a grad_relu is: 29
+Time execution grad_res_conv on GPU is:1721.339464187622
+Here is grad_relu_sgx
+The time of a grad_relu is: 17
+Time execution grad conv padding1 on GPU is:1862.6976013183594
+Here is grad maxpool kernel size of 2 hhhh
+The time of a grad_maxpool is: 115
+Here is grad_relu_sgx
+The time of a grad_relu is: 84
+Time execution grad conv padding1 on GPU is:1698.0581283569336
+relu time average each iteration:737.5
+grad relu time average each iteration:243.5
+maxpool time average each iteration:305
+grad maxpool time average each iteration:470.5
+Here is the 0.020000 batch
+time of data initialization in non-secure world: 4175
+Time execution conv padding 1 on GPU is:1724.5936393737793
+Here is relu_sgx
+The time of a relu is: 84
+time of relu computation in  sgx secure world: 9
+Here is maxpool kernel size of 2 hhhh
+The time of a maxpool is: 37
+Time execution conv padding 1 on GPU is:1896.5213298797607
+Here is relu_sgx
+The time of a relu is: 10
+Time execution resbconv padding1 on GPU is:1732.7640056610107
+Here is relu_sgx
+The time of a relu is: 24
+Time execution conv padding 1 on GPU is:1851.6864776611328
+Here is relu_sgx
+The time of a relu is: 22
+Time execution resbconv padding1 on GPU is:1726.6249656677246
+Here is relu_sgx
+The time of a relu is: 25
+Time execution conv 32 on GPU is:1676.9988536834717
+Here is relu_sgx
+The time of a relu is: 12
+Time execution res1D conv on GPU is:1885.044813156128
+Here is relu_sgx
+The time of a relu is: 12
+Time execution conv padding 1 on GPU is:1672.4939346313477
+Here is relu_sgx
+The time of a relu is: 11
+Time execution resbconv padding1 on GPU is:1723.7293720245361
+Here is relu_sgx
+The time of a relu is: 12
+Time execution conv 32 on GPU is:1680.7682514190674
+Here is relu_sgx
+The time of a relu is: 7
+Time execution res1D conv on GPU is:1764.559030532837
+Here is relu_sgx
+The time of a relu is: 3
+Time execution conv padding 1 on GPU is:1681.2224388122559
+Here is relu_sgx
+The time of a relu is: 4
+Time execution resbconv padding1 on GPU is:1841.5582180023193
+Here is relu_sgx
+The time of a relu is: 4
+Time execution conv 32 on GPU is:1851.3405323028564
+Here is relu_sgx
+The time of a relu is: 3
+Time execution res1D conv on GPU is:1730.5433750152588
+Here is relu_sgx
+The time of a relu is: 3
+Time execution conv padding 1 on GPU is:1961.0683917999268
+Here is relu_sgx
+The time of a relu is: 3
+Time execution resbconv padding1 on GPU is:2025.073528289795
+Here is relu_sgx
+The time of a relu is: 3
+Here is maxpool kernel size of 2 hhhh
+The time of a maxpool is: 3
+torch.Size([100, 512])
+torch.Size([512, 10])
+Time execution conv on fc GPU is:1740.9465312957764
+Here is relu_sgx
+The time of a relu is: 2
+Here is grad_relu_sgx
+The time of a grad_relu is: 7
+Time execution grad_fc on GPU is:1638.1251811981201
+Here is grad fc
+Here is grad maxpool kernel size of 2 hhhh
+The time of a grad_maxpool is: 4
+Here is grad_relu_sgx
+The time of a grad_relu is: 2
+Time execution grad_res_conv on GPU is:1751.3446807861328
+Here is grad_relu_sgx
+The time of a grad_relu is: 5
+Time execution grad conv padding1 on GPU is:2207.564115524292
+Here is grad_relu_sgx
+The time of a grad_relu is: 5
+Time execution res1D grad conv on GPU is:1763.5772228240967
+Here is grad_relu_sgx
+The time of a grad_relu is: 3
+Time execution grad_conv 32 on GPU is:2001.0099411010742
+Here is grad_relu_sgx
+The time of a grad_relu is: 3
+Time execution grad_res_conv on GPU is:1883.9490413665771
+Here is grad_relu_sgx
+The time of a grad_relu is: 4
+Time execution grad conv padding1 on GPU is:1899.6131420135498
+Here is grad_relu_sgx
+The time of a grad_relu is: 3
+Time execution res1D grad conv on GPU is:1959.122896194458
+Here is grad_relu_sgx
+The time of a grad_relu is: 4
+Time execution grad_conv 32 on GPU is:1924.7043132781982
+Here is grad_relu_sgx
+The time of a grad_relu is: 5
+Time execution grad_res_conv on GPU is:1862.8079891204834
+Here is grad_relu_sgx
+The time of a grad_relu is: 17
+Time execution grad conv padding1 on GPU is:1892.6055431365967
+Here is grad_relu_sgx
+The time of a grad_relu is: 15
+Time execution res1D grad conv on GPU is:1814.8624897003174
+Here is grad_relu_sgx
+The time of a grad_relu is: 8
+Time execution grad_conv 32 on GPU is:1749.7243881225586
+Here is grad_relu_sgx
+The time of a grad_relu is: 23
+Time execution grad_res_conv on GPU is:1710.2742195129395
+Here is grad_relu_sgx
+The time of a grad_relu is: 13
+Time execution grad conv padding1 on GPU is:1777.6474952697754
+Here is grad_relu_sgx
+The time of a grad_relu is: 24
+Time execution grad_res_conv on GPU is:1837.541103363037
+Here is grad_relu_sgx
+The time of a grad_relu is: 13
+Time execution grad conv padding1 on GPU is:1948.423147201538
+Here is grad maxpool kernel size of 2 hhhh
+The time of a grad_maxpool is: 114
+Here is grad_relu_sgx
+The time of a grad_relu is: 83
+Time execution grad conv padding1 on GPU is:1780.1978588104248
+relu time average each iteration:573
+grad relu time average each iteration:241.333
+maxpool time average each iteration:216.667
+grad maxpool time average each iteration:353
+Here is the 0.030000 batch
+time of data initialization in non-secure world: 4209
+Time execution conv padding 1 on GPU is:2201.3697624206543
+Here is relu_sgx
+The time of a relu is: 82
+time of relu computation in  sgx secure world: 8
+Here is maxpool kernel size of 2 hhhh
+The time of a maxpool is: 36
+Time execution conv padding 1 on GPU is:1978.6098003387451
+Here is relu_sgx
+The time of a relu is: 8
+Time execution resbconv padding1 on GPU is:1847.0664024353027
+Here is relu_sgx
+The time of a relu is: 23
+Time execution conv padding 1 on GPU is:1815.439224243164
+Here is relu_sgx
+The time of a relu is: 24
+Time execution resbconv padding1 on GPU is:1835.3171348571777
+Here is relu_sgx
+The time of a relu is: 24
+Time execution conv 32 on GPU is:1680.9873580932617
+Here is relu_sgx
+The time of a relu is: 13
+Time execution res1D conv on GPU is:2093.632936477661
+Here is relu_sgx
+The time of a relu is: 12
+Time execution conv padding 1 on GPU is:1697.9444026947021
+Here is relu_sgx
+The time of a relu is: 11
+Time execution resbconv padding1 on GPU is:1909.8584651947021
+Here is relu_sgx
+The time of a relu is: 11
+Time execution conv 32 on GPU is:1792.5889492034912
+Here is relu_sgx
+The time of a relu is: 6
+Time execution res1D conv on GPU is:1919.3146228790283
+Here is relu_sgx
+The time of a relu is: 4
+Time execution conv padding 1 on GPU is:1833.841323852539
+Here is relu_sgx
+The time of a relu is: 3
+Time execution resbconv padding1 on GPU is:1788.5851860046387
+Here is relu_sgx
+The time of a relu is: 4
+Time execution conv 32 on GPU is:1689.2242431640625
+Here is relu_sgx
+The time of a relu is: 3
+Time execution res1D conv on GPU is:1997.8668689727783
+Here is relu_sgx
+The time of a relu is: 3
+Time execution conv padding 1 on GPU is:1892.8682804107666
+Here is relu_sgx
+The time of a relu is: 2
+Time execution resbconv padding1 on GPU is:1923.734188079834
+Here is relu_sgx
+The time of a relu is: 4
+Here is maxpool kernel size of 2 hhhh
+The time of a maxpool is: 3
+torch.Size([100, 512])
+torch.Size([512, 10])
+Time execution conv on fc GPU is:2055.814743041992
+Here is relu_sgx
+The time of a relu is: 2
+Here is grad_relu_sgx
+The time of a grad_relu is: 8
+Time execution grad_fc on GPU is:1616.8484687805176
+Here is grad fc
+Here is grad maxpool kernel size of 2 hhhh
+The time of a grad_maxpool is: 5
+Here is grad_relu_sgx
+The time of a grad_relu is: 3
+Time execution grad_res_conv on GPU is:1764.4364833831787
+Here is grad_relu_sgx
+The time of a grad_relu is: 4
+Time execution grad conv padding1 on GPU is:1741.0345077514648
+Here is grad_relu_sgx
+The time of a grad_relu is: 5
+Time execution res1D grad conv on GPU is:1831.2602043151855
+Here is grad_relu_sgx
+The time of a grad_relu is: 3
+Time execution grad_conv 32 on GPU is:1874.3953704833984
+Here is grad_relu_sgx
+The time of a grad_relu is: 4
+Time execution grad_res_conv on GPU is:1808.9048862457275
+Here is grad_relu_sgx
+The time of a grad_relu is: 3
+Time execution grad conv padding1 on GPU is:1862.0731830596924
+Here is grad_relu_sgx
+The time of a grad_relu is: 3
+Time execution res1D grad conv on GPU is:1901.7391204833984
+Here is grad_relu_sgx
+The time of a grad_relu is: 3
+Time execution grad_conv 32 on GPU is:1832.8263759613037
+Here is grad_relu_sgx
+The time of a grad_relu is: 5
+Time execution grad_res_conv on GPU is:1720.080852508545
+Here is grad_relu_sgx
+The time of a grad_relu is: 12
+Time execution grad conv padding1 on GPU is:1823.7135410308838
+Here is grad_relu_sgx
+The time of a grad_relu is: 12
+Time execution res1D grad conv on GPU is:1882.8670978546143
+Here is grad_relu_sgx
+The time of a grad_relu is: 6
+Time execution grad_conv 32 on GPU is:1824.4102001190186
+Here is grad_relu_sgx
+The time of a grad_relu is: 22
+Time execution grad_res_conv on GPU is:1969.3474769592285
+Here is grad_relu_sgx
+The time of a grad_relu is: 13
+Time execution grad conv padding1 on GPU is:2117.7215576171875
+Here is grad_relu_sgx
+The time of a grad_relu is: 22
+Time execution grad_res_conv on GPU is:1726.4657020568848
+Here is grad_relu_sgx
+The time of a grad_relu is: 13
+Time execution grad conv padding1 on GPU is:1852.9937267303467
+Here is grad maxpool kernel size of 2 hhhh
+The time of a grad_maxpool is: 115
+Here is grad_relu_sgx
+The time of a grad_relu is: 81
+Time execution grad conv padding1 on GPU is:1698.1291770935059
+relu time average each iteration:489.5
+grad relu time average each iteration:236.5
+maxpool time average each iteration:172.25
+grad maxpool time average each iteration:294.75
+Here is the 0.040000 batch
+time of data initialization in non-secure world: 4046
+Time execution conv padding 1 on GPU is:2055.340528488159
+Here is relu_sgx
+The time of a relu is: 82
+time of relu computation in  sgx secure world: 8
+Here is maxpool kernel size of 2 hhhh
+The time of a maxpool is: 38
+Time execution conv padding 1 on GPU is:1735.4707717895508
+Here is relu_sgx
+The time of a relu is: 8
+Time execution resbconv padding1 on GPU is:1880.0451755523682
+Here is relu_sgx
+The time of a relu is: 24
+Time execution conv padding 1 on GPU is:1706.0787677764893
+Here is relu_sgx
+The time of a relu is: 22
+Time execution resbconv padding1 on GPU is:1767.8837776184082
+Here is relu_sgx
+The time of a relu is: 28
+Time execution conv 32 on GPU is:1856.03666305542
+Here is relu_sgx
+The time of a relu is: 13
+Time execution res1D conv on GPU is:1829.7595977783203
+Here is relu_sgx
+The time of a relu is: 13
+Time execution conv padding 1 on GPU is:1860.9428405761719
+Here is relu_sgx
+The time of a relu is: 11
+Time execution resbconv padding1 on GPU is:1686.476469039917
+Here is relu_sgx
+The time of a relu is: 12
+Time execution conv 32 on GPU is:1675.7547855377197
+Here is relu_sgx
+The time of a relu is: 7
+Time execution res1D conv on GPU is:1844.8069095611572
+Here is relu_sgx
+The time of a relu is: 4
+Time execution conv padding 1 on GPU is:1801.5742301940918
+Here is relu_sgx
+The time of a relu is: 4
+Time execution resbconv padding1 on GPU is:1834.6452713012695
+Here is relu_sgx
+The time of a relu is: 3
+Time execution conv 32 on GPU is:1994.3747520446777
+Here is relu_sgx
+The time of a relu is: 2
+Time execution res1D conv on GPU is:1869.931936264038
+Here is relu_sgx
+The time of a relu is: 3
+Time execution conv padding 1 on GPU is:1976.7251014709473
+Here is relu_sgx
+The time of a relu is: 3
+Time execution resbconv padding1 on GPU is:1722.6781845092773
+Here is relu_sgx
+The time of a relu is: 3
+Here is maxpool kernel size of 2 hhhh
+The time of a maxpool is: 2
+torch.Size([100, 512])
+torch.Size([512, 10])
+Time execution conv on fc GPU is:1630.2340030670166
+Here is relu_sgx
+The time of a relu is: 2
+Here is grad_relu_sgx
+The time of a grad_relu is: 12
+Time execution grad_fc on GPU is:1788.6104583740234
+Here is grad fc
+Here is grad maxpool kernel size of 2 hhhh
+The time of a grad_maxpool is: 6
+Here is grad_relu_sgx
+The time of a grad_relu is: 4
+Time execution grad_res_conv on GPU is:1927.2394180297852
+Here is grad_relu_sgx
+The time of a grad_relu is: 5
+Time execution grad conv padding1 on GPU is:1785.2115631103516
+Here is grad_relu_sgx
+The time of a grad_relu is: 5
+Time execution res1D grad conv on GPU is:2065.4122829437256
+Here is grad_relu_sgx
+The time of a grad_relu is: 3
+Time execution grad_conv 32 on GPU is:1958.4202766418457
+Here is grad_relu_sgx
+The time of a grad_relu is: 4
+Time execution grad_res_conv on GPU is:1884.7298622131348
+Here is grad_relu_sgx
+The time of a grad_relu is: 4
+Time execution grad conv padding1 on GPU is:1838.7136459350586
+Here is grad_relu_sgx
+The time of a grad_relu is: 4
+Time execution res1D grad conv on GPU is:1971.6174602508545
+Here is grad_relu_sgx
+The time of a grad_relu is: 4
+Time execution grad_conv 32 on GPU is:1819.2787170410156
+Here is grad_relu_sgx
+The time of a grad_relu is: 5
+Time execution grad_res_conv on GPU is:1908.8201522827148
+Here is grad_relu_sgx
+The time of a grad_relu is: 16
+Time execution grad conv padding1 on GPU is:2024.47509765625
+Here is grad_relu_sgx
+The time of a grad_relu is: 15
+Time execution res1D grad conv on GPU is:1867.784023284912
+Here is grad_relu_sgx
+The time of a grad_relu is: 7
+Time execution grad_conv 32 on GPU is:2115.203857421875
+Here is grad_relu_sgx
+The time of a grad_relu is: 23
+Time execution grad_res_conv on GPU is:1875.666618347168
+Here is grad_relu_sgx
+The time of a grad_relu is: 14
+Time execution grad conv padding1 on GPU is:1914.780855178833
+Here is grad_relu_sgx
+The time of a grad_relu is: 23
+Time execution grad_res_conv on GPU is:2165.6975746154785
+Here is grad_relu_sgx
+The time of a grad_relu is: 11
+Time execution grad conv padding1 on GPU is:1825.3717422485352
+Here is grad maxpool kernel size of 2 hhhh
+The time of a grad_maxpool is: 113
+Here is grad_relu_sgx
+The time of a grad_relu is: 84
+Time execution grad conv padding1 on GPU is:1887.3181343078613
+relu time average each iteration:440.4
+grad relu time average each iteration:237.8
+maxpool time average each iteration:145.8
+grad maxpool time average each iteration:259.6
+Here is the 0.050000 batch
+time of data initialization in non-secure world: 4457
+Time execution conv padding 1 on GPU is:1894.3517208099365
+Here is relu_sgx
+The time of a relu is: 108
+time of relu computation in  sgx secure world: 10
+Here is maxpool kernel size of 2 hhhh
+The time of a maxpool is: 39
+Time execution conv padding 1 on GPU is:1730.8058738708496
+Here is relu_sgx
+The time of a relu is: 9
+Time execution resbconv padding1 on GPU is:1791.2235260009766
+Here is relu_sgx
+The time of a relu is: 29
+Time execution conv padding 1 on GPU is:1946.0234642028809
+Here is relu_sgx
+The time of a relu is: 28
+Time execution resbconv padding1 on GPU is:2015.0611400604248
+Here is relu_sgx
+The time of a relu is: 23
+Time execution conv 32 on GPU is:1675.5170822143555
+Here is relu_sgx
+The time of a relu is: 12
+Time execution res1D conv on GPU is:1835.7398509979248
+Here is relu_sgx
+The time of a relu is: 12
+Time execution conv padding 1 on GPU is:1862.6713752746582
+Here is relu_sgx
+The time of a relu is: 13
+Time execution resbconv padding1 on GPU is:1934.0870380401611
+Here is relu_sgx
+The time of a relu is: 12
+Time execution conv 32 on GPU is:1691.50710105896
+Here is relu_sgx
+The time of a relu is: 6
+Time execution res1D conv on GPU is:1952.7831077575684
+Here is relu_sgx
+The time of a relu is: 4
+Time execution conv padding 1 on GPU is:1710.0038528442383
+Here is relu_sgx
+The time of a relu is: 4
+Time execution resbconv padding1 on GPU is:1694.4992542266846
+Here is relu_sgx
+The time of a relu is: 3
+Time execution conv 32 on GPU is:1768.4028148651123
+Here is relu_sgx
+The time of a relu is: 3
+Time execution res1D conv on GPU is:1990.0543689727783
+Here is relu_sgx
+The time of a relu is: 3
+Time execution conv padding 1 on GPU is:1799.6935844421387
+Here is relu_sgx
+The time of a relu is: 3
+Time execution resbconv padding1 on GPU is:1720.7562923431396
+Here is relu_sgx
+The time of a relu is: 3
+Here is maxpool kernel size of 2 hhhh
+The time of a maxpool is: 2
+torch.Size([100, 512])
+torch.Size([512, 10])
+Time execution conv on fc GPU is:1806.9522380828857
+Here is relu_sgx
+The time of a relu is: 2
+Here is grad_relu_sgx
+The time of a grad_relu is: 10
+Time execution grad_fc on GPU is:2056.6134452819824
+Here is grad fc
+Here is grad maxpool kernel size of 2 hhhh
+The time of a grad_maxpool is: 5
+Here is grad_relu_sgx
+The time of a grad_relu is: 3
+Time execution grad_res_conv on GPU is:1738.5010719299316
+Here is grad_relu_sgx
+The time of a grad_relu is: 6
+Time execution grad conv padding1 on GPU is:2013.3540630340576
+Here is grad_relu_sgx
+The time of a grad_relu is: 5
+Time execution res1D grad conv on GPU is:1755.5232048034668
+Here is grad_relu_sgx
+The time of a grad_relu is: 3
+Time execution grad_conv 32 on GPU is:1858.935832977295
+Here is grad_relu_sgx
+The time of a grad_relu is: 5
+Time execution grad_res_conv on GPU is:1861.1695766448975
+Here is grad_relu_sgx
+The time of a grad_relu is: 4
+Time execution grad conv padding1 on GPU is:1719.6831703186035
+Here is grad_relu_sgx
+The time of a grad_relu is: 4
+Time execution res1D grad conv on GPU is:1930.4959774017334
+Here is grad_relu_sgx
+The time of a grad_relu is: 4
+Time execution grad_conv 32 on GPU is:1759.894847869873
+Here is grad_relu_sgx
+The time of a grad_relu is: 7
+Time execution grad_res_conv on GPU is:2170.1762676239014
+Here is grad_relu_sgx
+The time of a grad_relu is: 15
+Time execution grad conv padding1 on GPU is:1848.9906787872314
+Here is grad_relu_sgx
+The time of a grad_relu is: 16
+Time execution res1D grad conv on GPU is:1715.9640789031982
+Here is grad_relu_sgx
+The time of a grad_relu is: 9
+Time execution grad_conv 32 on GPU is:1801.2685775756836
+Here is grad_relu_sgx
+The time of a grad_relu is: 31
+Time execution grad_res_conv on GPU is:1689.30983543396
+Here is grad_relu_sgx
+The time of a grad_relu is: 13
+Time execution grad conv padding1 on GPU is:1691.3964748382568
+Here is grad_relu_sgx
+The time of a grad_relu is: 23
+Time execution grad_res_conv on GPU is:1734.5290184020996
+Here is grad_relu_sgx
+The time of a grad_relu is: 12
+Time execution grad conv padding1 on GPU is:1704.4029235839844
+Here is grad maxpool kernel size of 2 hhhh
+The time of a grad_maxpool is: 113
+Here is grad_relu_sgx
+The time of a grad_relu is: 81
+Time execution grad conv padding1 on GPU is:1699.4295120239258
+relu time average each iteration:413.167
+grad relu time average each iteration:240
+maxpool time average each iteration:128.333
+grad maxpool time average each iteration:236
+Here is the 0.060000 batch
+time of data initialization in non-secure world: 4376
+Time execution conv padding 1 on GPU is:1832.8053951263428
+Here is relu_sgx
+The time of a relu is: 108
+time of relu computation in  sgx secure world: 10
+Here is maxpool kernel size of 2 hhhh
+The time of a maxpool is: 38
+Time execution conv padding 1 on GPU is:1910.742998123169
+Here is relu_sgx
+The time of a relu is: 10
+Time execution resbconv padding1 on GPU is:1754.0488243103027
+Here is relu_sgx
+The time of a relu is: 28
+Time execution conv padding 1 on GPU is:1805.7565689086914
+Here is relu_sgx
+The time of a relu is: 31
+Time execution resbconv padding1 on GPU is:1729.379415512085
+Here is relu_sgx
+The time of a relu is: 25
+Time execution conv 32 on GPU is:2049.884557723999
+Here is relu_sgx
+The time of a relu is: 11
+Time execution res1D conv on GPU is:1837.6119136810303
+Here is relu_sgx
+The time of a relu is: 12
+Time execution conv padding 1 on GPU is:1718.7769412994385
+Here is relu_sgx
+The time of a relu is: 11
+Time execution resbconv padding1 on GPU is:1698.7614631652832
+Here is relu_sgx
+The time of a relu is: 13
+Time execution conv 32 on GPU is:1686.5887641906738
+Here is relu_sgx
+The time of a relu is: 7
+Time execution res1D conv on GPU is:1848.7439155578613
+Here is relu_sgx
+The time of a relu is: 3
+Time execution conv padding 1 on GPU is:2053.5857677459717
+Here is relu_sgx
+The time of a relu is: 4
+Time execution resbconv padding1 on GPU is:1757.4856281280518
+Here is relu_sgx
+The time of a relu is: 4
+Time execution conv 32 on GPU is:1690.1421546936035
+Here is relu_sgx
+The time of a relu is: 3
+Time execution res1D conv on GPU is:1848.9835262298584
+Here is relu_sgx
+The time of a relu is: 3
+Time execution conv padding 1 on GPU is:1959.0439796447754
+Here is relu_sgx
+The time of a relu is: 3
+Time execution resbconv padding1 on GPU is:1734.6503734588623
+Here is relu_sgx
+The time of a relu is: 3
+Here is maxpool kernel size of 2 hhhh
+The time of a maxpool is: 3
+torch.Size([100, 512])
+torch.Size([512, 10])
+Time execution conv on fc GPU is:1741.546392440796
+Here is relu_sgx
+The time of a relu is: 2
+Here is grad_relu_sgx
+The time of a grad_relu is: 7
+Time execution grad_fc on GPU is:1659.8856449127197
+Here is grad fc
+Here is grad maxpool kernel size of 2 hhhh
+The time of a grad_maxpool is: 5
+Here is grad_relu_sgx
+The time of a grad_relu is: 3
+Time execution grad_res_conv on GPU is:1732.4364185333252
+Here is grad_relu_sgx
+The time of a grad_relu is: 5
+Time execution grad conv padding1 on GPU is:1820.197343826294
+Here is grad_relu_sgx
+The time of a grad_relu is: 5
+Time execution res1D grad conv on GPU is:1737.3936176300049
+Here is grad_relu_sgx
+The time of a grad_relu is: 3
+Time execution grad_conv 32 on GPU is:1693.8891410827637
+Here is grad_relu_sgx
+The time of a grad_relu is: 4
+Time execution grad_res_conv on GPU is:1699.7778415679932
+Here is grad_relu_sgx
+The time of a grad_relu is: 4
+Time execution grad conv padding1 on GPU is:1716.8138027191162
+Here is grad_relu_sgx
+The time of a grad_relu is: 4
+Time execution res1D grad conv on GPU is:1880.2196979522705
+Here is grad_relu_sgx
+The time of a grad_relu is: 4
+Time execution grad_conv 32 on GPU is:1749.1869926452637
+Here is grad_relu_sgx
+The time of a grad_relu is: 7
+Time execution grad_res_conv on GPU is:2046.5219020843506
+Here is grad_relu_sgx
+The time of a grad_relu is: 16
+Time execution grad conv padding1 on GPU is:1804.2244911193848
+Here is grad_relu_sgx
+The time of a grad_relu is: 16
+Time execution res1D grad conv on GPU is:2051.750659942627
+Here is grad_relu_sgx
+The time of a grad_relu is: 6
+Time execution grad_conv 32 on GPU is:1697.9954242706299
+Here is grad_relu_sgx
+The time of a grad_relu is: 22
+Time execution grad_res_conv on GPU is:1693.3324337005615
+Here is grad_relu_sgx
+The time of a grad_relu is: 12
+Time execution grad conv padding1 on GPU is:1888.7009620666504
+Here is grad_relu_sgx
+The time of a grad_relu is: 27
+Time execution grad_res_conv on GPU is:1845.1812267303467
+Here is grad_relu_sgx
+The time of a grad_relu is: 11
+Time execution grad conv padding1 on GPU is:2026.6709327697754
+Here is grad maxpool kernel size of 2 hhhh
+The time of a grad_maxpool is: 116
+Here is grad_relu_sgx
+The time of a grad_relu is: 82
+Time execution grad conv padding1 on GPU is:1862.3785972595215
+relu time average each iteration:394.286
+grad relu time average each iteration:239.714
+maxpool time average each iteration:115.857
+grad maxpool time average each iteration:219.571
+Here is the 0.070000 batch
+time of data initialization in non-secure world: 4262
+Time execution conv padding 1 on GPU is:1956.1877250671387
+Here is relu_sgx
+The time of a relu is: 107
+time of relu computation in  sgx secure world: 8
+Here is maxpool kernel size of 2 hhhh
+The time of a maxpool is: 41
+Time execution conv padding 1 on GPU is:1921.7050075531006
+Here is relu_sgx
+The time of a relu is: 9
+Time execution resbconv padding1 on GPU is:1724.8353958129883
+Here is relu_sgx
+The time of a relu is: 25
+Time execution conv padding 1 on GPU is:1719.2165851593018
+Here is relu_sgx
+The time of a relu is: 22
+Time execution resbconv padding1 on GPU is:1793.830156326294
+Here is relu_sgx
+The time of a relu is: 23
+Time execution conv 32 on GPU is:1695.2426433563232
+Here is relu_sgx
+The time of a relu is: 11
+Time execution res1D conv on GPU is:1852.670669555664
+Here is relu_sgx
+The time of a relu is: 12
+Time execution conv padding 1 on GPU is:1902.864694595337
+Here is relu_sgx
+The time of a relu is: 12
+Time execution resbconv padding1 on GPU is:1707.1189880371094
+Here is relu_sgx
+The time of a relu is: 13
+Time execution conv 32 on GPU is:1804.7394752502441
+Here is relu_sgx
+The time of a relu is: 7
+Time execution res1D conv on GPU is:1663.8565063476562
+Here is relu_sgx
+The time of a relu is: 4
+Time execution conv padding 1 on GPU is:1882.533311843872
+Here is relu_sgx
+The time of a relu is: 4
+Time execution resbconv padding1 on GPU is:1856.5776348114014
+Here is relu_sgx
+The time of a relu is: 4
+Time execution conv 32 on GPU is:1778.7985801696777
+Here is relu_sgx
+The time of a relu is: 3
+Time execution res1D conv on GPU is:1747.2267150878906
+Here is relu_sgx
+The time of a relu is: 3
+Time execution conv padding 1 on GPU is:1856.992483139038
+Here is relu_sgx
+The time of a relu is: 4
+Time execution resbconv padding1 on GPU is:1847.9771614074707
+Here is relu_sgx
+The time of a relu is: 3
+Here is maxpool kernel size of 2 hhhh
+The time of a maxpool is: 3
+torch.Size([100, 512])
+torch.Size([512, 10])
+Time execution conv on fc GPU is:1815.4430389404297
+Here is relu_sgx
+The time of a relu is: 2
+Here is grad_relu_sgx
+The time of a grad_relu is: 8
+Time execution grad_fc on GPU is:2116.9655323028564
+Here is grad fc
+Here is grad maxpool kernel size of 2 hhhh
+The time of a grad_maxpool is: 5
+Here is grad_relu_sgx
+The time of a grad_relu is: 3
+Time execution grad_res_conv on GPU is:2078.800916671753
+Here is grad_relu_sgx
+The time of a grad_relu is: 5
+Time execution grad conv padding1 on GPU is:1757.0621967315674
+Here is grad_relu_sgx
+The time of a grad_relu is: 5
+Time execution res1D grad conv on GPU is:1773.449182510376
+Here is grad_relu_sgx
+The time of a grad_relu is: 3
+Time execution grad_conv 32 on GPU is:1828.2747268676758
+Here is grad_relu_sgx
+The time of a grad_relu is: 4
+Time execution grad_res_conv on GPU is:2112.844467163086
+Here is grad_relu_sgx
+The time of a grad_relu is: 4
+Time execution grad conv padding1 on GPU is:1704.817295074463
+Here is grad_relu_sgx
+The time of a grad_relu is: 4
+Time execution res1D grad conv on GPU is:1912.5666618347168
+Here is grad_relu_sgx
+The time of a grad_relu is: 4
+Time execution grad_conv 32 on GPU is:1823.9285945892334
+Here is grad_relu_sgx
+The time of a grad_relu is: 5
+Time execution grad_res_conv on GPU is:1982.4490547180176
+Here is grad_relu_sgx
+The time of a grad_relu is: 16
+Time execution grad conv padding1 on GPU is:1840.928316116333
+Here is grad_relu_sgx
+The time of a grad_relu is: 13
+Time execution res1D grad conv on GPU is:1715.4808044433594
+Here is grad_relu_sgx
+The time of a grad_relu is: 7
+Time execution grad_conv 32 on GPU is:1904.9019813537598
+Here is grad_relu_sgx
+The time of a grad_relu is: 23
+Time execution grad_res_conv on GPU is:1908.6260795593262
+Here is grad_relu_sgx
+The time of a grad_relu is: 11
+Time execution grad conv padding1 on GPU is:1709.9995613098145
+Here is grad_relu_sgx
+The time of a grad_relu is: 25
+Time execution grad_res_conv on GPU is:1734.3871593475342
+Here is grad_relu_sgx
+The time of a grad_relu is: 14
+Time execution grad conv padding1 on GPU is:1720.9508419036865
+Here is grad maxpool kernel size of 2 hhhh
+The time of a grad_maxpool is: 117
+Here is grad_relu_sgx
+The time of a grad_relu is: 84
+Time execution grad conv padding1 on GPU is:2080.6431770324707
+relu time average each iteration:378.5
+grad relu time average each iteration:239.5
+maxpool time average each iteration:106.875
+grad maxpool time average each iteration:207.375
+Here is the 0.080000 batch
+time of data initialization in non-secure world: 4503
+Time execution conv padding 1 on GPU is:1977.4980545043945
+Here is relu_sgx
+The time of a relu is: 106
+time of relu computation in  sgx secure world: 18
+Here is maxpool kernel size of 2 hhhh
+The time of a maxpool is: 63
+Time execution conv padding 1 on GPU is:1730.8881282806396
+Here is relu_sgx
+The time of a relu is: 12
+Time execution resbconv padding1 on GPU is:1751.5292167663574
+Here is relu_sgx
+The time of a relu is: 29
+Time execution conv padding 1 on GPU is:1759.0601444244385
+Here is relu_sgx
+The time of a relu is: 24
+Time execution resbconv padding1 on GPU is:1723.8450050354004
+Here is relu_sgx
+The time of a relu is: 24
+Time execution conv 32 on GPU is:1914.8550033569336
+Here is relu_sgx
+The time of a relu is: 13
+Time execution res1D conv on GPU is:1737.9536628723145
+Here is relu_sgx
+The time of a relu is: 12
+Time execution conv padding 1 on GPU is:1840.2786254882812
+Here is relu_sgx
+The time of a relu is: 13
+Time execution resbconv padding1 on GPU is:1723.6347198486328
+Here is relu_sgx
+The time of a relu is: 14
+Time execution conv 32 on GPU is:1717.6363468170166
+Here is relu_sgx
+The time of a relu is: 8
+Time execution res1D conv on GPU is:1694.6570873260498
+Here is relu_sgx
+The time of a relu is: 3
+Time execution conv padding 1 on GPU is:1794.0685749053955
+Here is relu_sgx
+The time of a relu is: 4
+Time execution resbconv padding1 on GPU is:1861.7732524871826
+Here is relu_sgx
+The time of a relu is: 4
+Time execution conv 32 on GPU is:2029.6733379364014
+Here is relu_sgx
+The time of a relu is: 3
+Time execution res1D conv on GPU is:1968.064308166504
+Here is relu_sgx
+The time of a relu is: 3
+Time execution conv padding 1 on GPU is:1731.318473815918
+Here is relu_sgx
+The time of a relu is: 3
+Time execution resbconv padding1 on GPU is:2285.4816913604736
+Here is relu_sgx
+The time of a relu is: 4
+Here is maxpool kernel size of 2 hhhh
+The time of a maxpool is: 3
+torch.Size([100, 512])
+torch.Size([512, 10])
+Time execution conv on fc GPU is:1857.5916290283203
+Here is relu_sgx
+The time of a relu is: 2
+Here is grad_relu_sgx
+The time of a grad_relu is: 1
+Time execution grad_fc on GPU is:2136.183500289917
+Here is grad fc
+Here is grad maxpool kernel size of 2 hhhh
+The time of a grad_maxpool is: 4
+Here is grad_relu_sgx
+The time of a grad_relu is: 2
+Time execution grad_res_conv on GPU is:2101.802349090576
+Here is grad_relu_sgx
+The time of a grad_relu is: 5
+Time execution grad conv padding1 on GPU is:1911.6926193237305
+Here is grad_relu_sgx
+The time of a grad_relu is: 5
+Time execution res1D grad conv on GPU is:2081.697702407837
+Here is grad_relu_sgx
+The time of a grad_relu is: 3
+Time execution grad_conv 32 on GPU is:1890.8586502075195
+Here is grad_relu_sgx
+The time of a grad_relu is: 4
+Time execution grad_res_conv on GPU is:1939.0161037445068
+Here is grad_relu_sgx
+The time of a grad_relu is: 3
+Time execution grad conv padding1 on GPU is:1920.271873474121
+Here is grad_relu_sgx
+The time of a grad_relu is: 4
+Time execution res1D grad conv on GPU is:1995.7871437072754
+Here is grad_relu_sgx
+The time of a grad_relu is: 3
+Time execution grad_conv 32 on GPU is:2004.1885375976562
+Here is grad_relu_sgx
+The time of a grad_relu is: 5
+Time execution grad_res_conv on GPU is:1892.8298950195312
+Here is grad_relu_sgx
+The time of a grad_relu is: 13
+Time execution grad conv padding1 on GPU is:2041.0420894622803
+Here is grad_relu_sgx
+The time of a grad_relu is: 13
+Time execution res1D grad conv on GPU is:1709.5589637756348
+Here is grad_relu_sgx
+The time of a grad_relu is: 6
+Time execution grad_conv 32 on GPU is:1929.2492866516113
+Here is grad_relu_sgx
+The time of a grad_relu is: 29
+Time execution grad_res_conv on GPU is:2096.1217880249023
+Here is grad_relu_sgx
+The time of a grad_relu is: 15
+Time execution grad conv padding1 on GPU is:1721.5383052825928
+Here is grad_relu_sgx
+The time of a grad_relu is: 28
+Time execution grad_res_conv on GPU is:2084.2697620391846
+Here is grad_relu_sgx
+The time of a grad_relu is: 14
+Time execution grad conv padding1 on GPU is:1709.7110748291016
+Here is grad maxpool kernel size of 2 hhhh
+The time of a grad_maxpool is: 144
+Here is grad_relu_sgx
+The time of a grad_relu is: 83
+Time execution grad conv padding1 on GPU is:1949.5728015899658
+relu time average each iteration:367.667
+grad relu time average each iteration:239.111
+maxpool time average each iteration:102.333
+grad maxpool time average each iteration:200.778
+Here is the 0.090000 batch
+time of data initialization in non-secure world: 4562
+Time execution conv padding 1 on GPU is:2184.645891189575
+Here is relu_sgx
+The time of a relu is: 106
+time of relu computation in  sgx secure world: 8
+Here is maxpool kernel size of 2 hhhh
+The time of a maxpool is: 38
+Time execution conv padding 1 on GPU is:1861.0355854034424
+Here is relu_sgx
+The time of a relu is: 9
+Time execution resbconv padding1 on GPU is:1821.8510150909424
+Here is relu_sgx
+The time of a relu is: 28
+Time execution conv padding 1 on GPU is:2157.423257827759
+Here is relu_sgx
+The time of a relu is: 28
+Time execution resbconv padding1 on GPU is:1976.9132137298584
+Here is relu_sgx
+The time of a relu is: 25
+Time execution conv 32 on GPU is:1785.531997680664
+Here is relu_sgx
+The time of a relu is: 13
+Time execution res1D conv on GPU is:1724.64919090271
+Here is relu_sgx
+The time of a relu is: 13
+Time execution conv padding 1 on GPU is:1676.1434078216553
+Here is relu_sgx
+The time of a relu is: 12
+Time execution resbconv padding1 on GPU is:1955.9783935546875
+Here is relu_sgx
+The time of a relu is: 12
+Time execution conv 32 on GPU is:1811.020851135254
+Here is relu_sgx
+The time of a relu is: 6
+Time execution res1D conv on GPU is:1666.3596630096436
+Here is relu_sgx
+The time of a relu is: 3
+Time execution conv padding 1 on GPU is:1671.4329719543457
+Here is relu_sgx
+The time of a relu is: 3
+Time execution resbconv padding1 on GPU is:1807.4100017547607
+Here is relu_sgx
+The time of a relu is: 4
+Time execution conv 32 on GPU is:1929.6550750732422
+Here is relu_sgx
+The time of a relu is: 2
+Time execution res1D conv on GPU is:1951.9586563110352
+Here is relu_sgx
+The time of a relu is: 3
+Time execution conv padding 1 on GPU is:1883.13627243042
+Here is relu_sgx
+The time of a relu is: 3
+Time execution resbconv padding1 on GPU is:1868.459701538086
+Here is relu_sgx
+The time of a relu is: 3
+Here is maxpool kernel size of 2 hhhh
+The time of a maxpool is: 3
+torch.Size([100, 512])
+torch.Size([512, 10])
+Time execution conv on fc GPU is:1869.5554733276367
+Here is relu_sgx
+The time of a relu is: 2
+Here is grad_relu_sgx
+The time of a grad_relu is: 7
+Time execution grad_fc on GPU is:1642.9944038391113
+Here is grad fc
+Here is grad maxpool kernel size of 2 hhhh
+The time of a grad_maxpool is: 3
+Here is grad_relu_sgx
+The time of a grad_relu is: 2
+Time execution grad_res_conv on GPU is:1905.1978588104248
+Here is grad_relu_sgx
+The time of a grad_relu is: 5
+Time execution grad conv padding1 on GPU is:1746.032953262329
+Here is grad_relu_sgx
+The time of a grad_relu is: 5
+Time execution res1D grad conv on GPU is:1747.502326965332
+Here is grad_relu_sgx
+The time of a grad_relu is: 3
+Time execution grad_conv 32 on GPU is:1992.1777248382568
+Here is grad_relu_sgx
+The time of a grad_relu is: 3
+Time execution grad_res_conv on GPU is:2008.3041191101074
+Here is grad_relu_sgx
+The time of a grad_relu is: 4
+Time execution grad conv padding1 on GPU is:1697.0748901367188
+Here is grad_relu_sgx
+The time of a grad_relu is: 3
+Time execution res1D grad conv on GPU is:1720.508098602295
+Here is grad_relu_sgx
+The time of a grad_relu is: 4
+Time execution grad_conv 32 on GPU is:1776.6549587249756
+Here is grad_relu_sgx
+The time of a grad_relu is: 6
+Time execution grad_res_conv on GPU is:1727.7061939239502
+Here is grad_relu_sgx
+The time of a grad_relu is: 17
+Time execution grad conv padding1 on GPU is:1890.6917572021484
+Here is grad_relu_sgx
+The time of a grad_relu is: 16
+Time execution res1D grad conv on GPU is:1948.817253112793
+Here is grad_relu_sgx
+The time of a grad_relu is: 6
+Time execution grad_conv 32 on GPU is:1659.0352058410645
+Here is grad_relu_sgx
+The time of a grad_relu is: 24
+Time execution grad_res_conv on GPU is:1681.1397075653076
+Here is grad_relu_sgx
+The time of a grad_relu is: 12
+Time execution grad conv padding1 on GPU is:1690.1297569274902
+Here is grad_relu_sgx
+The time of a grad_relu is: 22
+Time execution grad_res_conv on GPU is:1966.8073654174805
+Here is grad_relu_sgx
+The time of a grad_relu is: 12
+Time execution grad conv padding1 on GPU is:1697.862148284912
+Here is grad maxpool kernel size of 2 hhhh
+The time of a grad_maxpool is: 116
+Here is grad_relu_sgx
+The time of a grad_relu is: 83
+Time execution grad conv padding1 on GPU is:1847.5637435913086
+relu time average each iteration:358.4
+grad relu time average each iteration:238.6
+maxpool time average each iteration:96.2
+grad maxpool time average each iteration:192.6
+Here is the 0.100000 batch
+time of data initialization in non-secure world: 4484
+Time execution conv padding 1 on GPU is:2074.8863220214844
+Here is relu_sgx
+The time of a relu is: 83
+time of relu computation in  sgx secure world: 8
+Here is maxpool kernel size of 2 hhhh
+The time of a maxpool is: 37
+Time execution conv padding 1 on GPU is:1869.6413040161133
+Here is relu_sgx
+The time of a relu is: 9
+Time execution resbconv padding1 on GPU is:1734.2028617858887
+Here is relu_sgx
+The time of a relu is: 23
+Time execution conv padding 1 on GPU is:2167.2401428222656
+Here is relu_sgx
+The time of a relu is: 26
+Time execution resbconv padding1 on GPU is:1729.1154861450195
+Here is relu_sgx
+The time of a relu is: 28
+Time execution conv 32 on GPU is:1733.0584526062012
+Here is relu_sgx
+The time of a relu is: 16
+Time execution res1D conv on GPU is:1894.3443298339844
+Here is relu_sgx
+The time of a relu is: 16
+Time execution conv padding 1 on GPU is:1936.5692138671875
+Here is relu_sgx
+The time of a relu is: 15
+Time execution resbconv padding1 on GPU is:1921.4892387390137
+Here is relu_sgx
+The time of a relu is: 13
+Time execution conv 32 on GPU is:1653.602123260498
+Here is relu_sgx
+The time of a relu is: 7
+Time execution res1D conv on GPU is:1806.8513870239258
+Here is relu_sgx
+The time of a relu is: 4
+Time execution conv padding 1 on GPU is:1914.7841930389404
+Here is relu_sgx
+The time of a relu is: 4
+Time execution resbconv padding1 on GPU is:1669.935941696167
+Here is relu_sgx
+The time of a relu is: 4
+Time execution conv 32 on GPU is:1982.740879058838
+Here is relu_sgx
+The time of a relu is: 3
+Time execution res1D conv on GPU is:1813.8043880462646
+Here is relu_sgx
+The time of a relu is: 3
+Time execution conv padding 1 on GPU is:1994.2481517791748
+Here is relu_sgx
+The time of a relu is: 3
+Time execution resbconv padding1 on GPU is:1906.4757823944092
+Here is relu_sgx
+The time of a relu is: 3
+Here is maxpool kernel size of 2 hhhh
+The time of a maxpool is: 3
+torch.Size([100, 512])
+torch.Size([512, 10])
+Time execution conv on fc GPU is:1733.5286140441895
+Here is relu_sgx
+The time of a relu is: 2
+Here is grad_relu_sgx
+The time of a grad_relu is: 8
+Time execution grad_fc on GPU is:1887.5486850738525
+Here is grad fc
+Here is grad maxpool kernel size of 2 hhhh
+The time of a grad_maxpool is: 5
+Here is grad_relu_sgx
+The time of a grad_relu is: 3
+Time execution grad_res_conv on GPU is:1919.5959568023682
+Here is grad_relu_sgx
+The time of a grad_relu is: 5
+Time execution grad conv padding1 on GPU is:1849.1826057434082
+Here is grad_relu_sgx
+The time of a grad_relu is: 5
+Time execution res1D grad conv on GPU is:2043.7610149383545
+Here is grad_relu_sgx
+The time of a grad_relu is: 3
+Time execution grad_conv 32 on GPU is:1819.5362091064453
+Here is grad_relu_sgx
+The time of a grad_relu is: 4
+Time execution grad_res_conv on GPU is:1890.5730247497559
+Here is grad_relu_sgx
+The time of a grad_relu is: 4
+Time execution grad conv padding1 on GPU is:2107.290029525757
+Here is grad_relu_sgx
+The time of a grad_relu is: 3
+Time execution res1D grad conv on GPU is:1852.4284362792969
+Here is grad_relu_sgx
+The time of a grad_relu is: 3
+Time execution grad_conv 32 on GPU is:1689.894199371338
+Here is grad_relu_sgx
+The time of a grad_relu is: 6
+Time execution grad_res_conv on GPU is:1884.127140045166
+Here is grad_relu_sgx
+The time of a grad_relu is: 11
+Time execution grad conv padding1 on GPU is:1898.608684539795
+Here is grad_relu_sgx
+The time of a grad_relu is: 11
+Time execution res1D grad conv on GPU is:1728.2414436340332
+Here is grad_relu_sgx
+The time of a grad_relu is: 7
+Time execution grad_conv 32 on GPU is:1970.759391784668
+Here is grad_relu_sgx
+The time of a grad_relu is: 24
+Time execution grad_res_conv on GPU is:1890.1286125183105
+Here is grad_relu_sgx
+The time of a grad_relu is: 11
+Time execution grad conv padding1 on GPU is:2096.9455242156982
+Here is grad_relu_sgx
+The time of a grad_relu is: 24
+Time execution grad_res_conv on GPU is:2029.029130935669
+Here is grad_relu_sgx
+The time of a grad_relu is: 12
+Time execution grad conv padding1 on GPU is:1893.8391208648682
+Here is grad maxpool kernel size of 2 hhhh
+The time of a grad_maxpool is: 112
+Here is grad_relu_sgx
+The time of a grad_relu is: 83
+Time execution grad conv padding1 on GPU is:2048.638343811035
+relu time average each iteration:349.636
+grad relu time average each iteration:237.545
+maxpool time average each iteration:91.0909
+grad maxpool time average each iteration:185.727
+Here is the 0.110000 batch
+time of data initialization in non-secure world: 4661
+Time execution conv padding 1 on GPU is:1721.4372158050537
+Here is relu_sgx
+The time of a relu is: 107
+time of relu computation in  sgx secure world: 8
+Here is maxpool kernel size of 2 hhhh
+The time of a maxpool is: 38
+Time execution conv padding 1 on GPU is:1915.144920349121
+Here is relu_sgx
+The time of a relu is: 8
+Time execution resbconv padding1 on GPU is:1939.2812252044678
+Here is relu_sgx
+The time of a relu is: 29
+Time execution conv padding 1 on GPU is:1684.9935054779053
+Here is relu_sgx
+The time of a relu is: 30
+Time execution resbconv padding1 on GPU is:1850.4233360290527
+Here is relu_sgx
+The time of a relu is: 28
+Time execution conv 32 on GPU is:1690.8619403839111
+Here is relu_sgx
+The time of a relu is: 17
+Time execution res1D conv on GPU is:1703.1660079956055
+Here is relu_sgx
+The time of a relu is: 15
+Time execution conv padding 1 on GPU is:1746.2646961212158
+Here is relu_sgx
+The time of a relu is: 15
+Time execution resbconv padding1 on GPU is:1813.0195140838623
+Here is relu_sgx
+The time of a relu is: 15
+Time execution conv 32 on GPU is:1843.4479236602783
+Here is relu_sgx
+The time of a relu is: 8
+Time execution res1D conv on GPU is:1730.759859085083
+Here is relu_sgx
+The time of a relu is: 3
+Time execution conv padding 1 on GPU is:1668.1849956512451
+Here is relu_sgx
+The time of a relu is: 3
+Time execution resbconv padding1 on GPU is:1775.7859230041504
+Here is relu_sgx
+The time of a relu is: 4
+Time execution conv 32 on GPU is:1847.7091789245605
+Here is relu_sgx
+The time of a relu is: 3
+Time execution res1D conv on GPU is:1754.6648979187012
+Here is relu_sgx
+The time of a relu is: 3
+Time execution conv padding 1 on GPU is:1694.4646835327148
+Here is relu_sgx
+The time of a relu is: 3
+Time execution resbconv padding1 on GPU is:1772.4766731262207
+Here is relu_sgx
+The time of a relu is: 3
+Here is maxpool kernel size of 2 hhhh
+The time of a maxpool is: 3
+torch.Size([100, 512])
+torch.Size([512, 10])
+Time execution conv on fc GPU is:1645.646572113037
+Here is relu_sgx
+The time of a relu is: 2
+Here is grad_relu_sgx
+The time of a grad_relu is: 8
+Time execution grad_fc on GPU is:1650.1784324645996
+Here is grad fc
+Here is grad maxpool kernel size of 2 hhhh
+The time of a grad_maxpool is: 4
+Here is grad_relu_sgx
+The time of a grad_relu is: 2
+Time execution grad_res_conv on GPU is:1818.2504177093506
+Here is grad_relu_sgx
+The time of a grad_relu is: 5
+Time execution grad conv padding1 on GPU is:1751.0480880737305
+Here is grad_relu_sgx
+The time of a grad_relu is: 5
+Time execution res1D grad conv on GPU is:1802.1798133850098
+Here is grad_relu_sgx
+The time of a grad_relu is: 3
+Time execution grad_conv 32 on GPU is:1912.2405052185059
+Here is grad_relu_sgx
+The time of a grad_relu is: 3
+Time execution grad_res_conv on GPU is:1995.4564571380615
+Here is grad_relu_sgx
+The time of a grad_relu is: 3
+Time execution grad conv padding1 on GPU is:1987.659215927124
+Here is grad_relu_sgx
+The time of a grad_relu is: 4
+Time execution res1D grad conv on GPU is:1779.6025276184082
+Here is grad_relu_sgx
+The time of a grad_relu is: 3
+Time execution grad_conv 32 on GPU is:1669.7654724121094
+Here is grad_relu_sgx
+The time of a grad_relu is: 5
+Time execution grad_res_conv on GPU is:1797.8510856628418
+Here is grad_relu_sgx
+The time of a grad_relu is: 15
+Time execution grad conv padding1 on GPU is:1815.8676624298096
+Here is grad_relu_sgx
+The time of a grad_relu is: 11
+Time execution res1D grad conv on GPU is:1944.819450378418
+Here is grad_relu_sgx
+The time of a grad_relu is: 7
+Time execution grad_conv 32 on GPU is:1795.964241027832
+Here is grad_relu_sgx
+The time of a grad_relu is: 23
+Time execution grad_res_conv on GPU is:1819.5700645446777
+Here is grad_relu_sgx
+The time of a grad_relu is: 12
+Time execution grad conv padding1 on GPU is:1715.8637046813965
+Here is grad_relu_sgx
+The time of a grad_relu is: 22
+Time execution grad_res_conv on GPU is:1941.6906833648682
+Here is grad_relu_sgx
+The time of a grad_relu is: 11
+Time execution grad conv padding1 on GPU is:1749.6399879455566
+Here is grad maxpool kernel size of 2 hhhh
+The time of a grad_maxpool is: 114
+Here is grad_relu_sgx
+The time of a grad_relu is: 81
+Time execution grad conv padding1 on GPU is:1706.9811820983887
+relu time average each iteration:345.167
+grad relu time average each iteration:236.333
+maxpool time average each iteration:86.9167
+grad maxpool time average each iteration:180.083
+Here is the 0.120000 batch
+time of data initialization in non-secure world: 4077
+Time execution conv padding 1 on GPU is:1694.4301128387451
+Here is relu_sgx
+The time of a relu is: 110
+time of relu computation in  sgx secure world: 10
+Here is maxpool kernel size of 2 hhhh
+The time of a maxpool is: 39
+Time execution conv padding 1 on GPU is:1705.6868076324463
+Here is relu_sgx
+The time of a relu is: 11
+Time execution resbconv padding1 on GPU is:1702.6886940002441
+Here is relu_sgx
+The time of a relu is: 28
+Time execution conv padding 1 on GPU is:1839.0436172485352
+Here is relu_sgx
+The time of a relu is: 31
+Time execution resbconv padding1 on GPU is:1694.3614482879639
+Here is relu_sgx
+The time of a relu is: 28
+Time execution conv 32 on GPU is:1866.8310642242432
+Here is relu_sgx
+The time of a relu is: 12
+Time execution res1D conv on GPU is:1714.7657871246338
+Here is relu_sgx
+The time of a relu is: 13
+Time execution conv padding 1 on GPU is:1889.6229267120361
+Here is relu_sgx
+The time of a relu is: 11
+Time execution resbconv padding1 on GPU is:1878.4160614013672
+Here is relu_sgx
+The time of a relu is: 11
+Time execution conv 32 on GPU is:1678.9631843566895
+Here is relu_sgx
+The time of a relu is: 7
+Time execution res1D conv on GPU is:2133.387565612793
+Here is relu_sgx
+The time of a relu is: 3
+Time execution conv padding 1 on GPU is:1744.1012859344482
+Here is relu_sgx
+The time of a relu is: 3
+Time execution resbconv padding1 on GPU is:2079.1478157043457
+Here is relu_sgx
+The time of a relu is: 4
+Time execution conv 32 on GPU is:1800.189733505249
+Here is relu_sgx
+The time of a relu is: 3
+Time execution res1D conv on GPU is:1790.5356884002686
+Here is relu_sgx
+The time of a relu is: 3
+Time execution conv padding 1 on GPU is:1927.1886348724365
+Here is relu_sgx
+The time of a relu is: 3
+Time execution resbconv padding1 on GPU is:1747.8699684143066
+Here is relu_sgx
+The time of a relu is: 3
+Here is maxpool kernel size of 2 hhhh
+The time of a maxpool is: 2
+torch.Size([100, 512])
+torch.Size([512, 10])
+Time execution conv on fc GPU is:1948.6539363861084
+Here is relu_sgx
+The time of a relu is: 2
+Here is grad_relu_sgx
+The time of a grad_relu is: 8
+Time execution grad_fc on GPU is:1658.5853099822998
+Here is grad fc
+Here is grad maxpool kernel size of 2 hhhh
+The time of a grad_maxpool is: 5
+Here is grad_relu_sgx
+The time of a grad_relu is: 3
+Time execution grad_res_conv on GPU is:1855.1054000854492
+Here is grad_relu_sgx
+The time of a grad_relu is: 5
+Time execution grad conv padding1 on GPU is:1744.2653179168701
+Here is grad_relu_sgx
+The time of a grad_relu is: 5
+Time execution res1D grad conv on GPU is:1999.964952468872
+Here is grad_relu_sgx
+The time of a grad_relu is: 3
+Time execution grad_conv 32 on GPU is:1705.265760421753
+Here is grad_relu_sgx
+The time of a grad_relu is: 3
+Time execution grad_res_conv on GPU is:1832.6447010040283
+Here is grad_relu_sgx
+The time of a grad_relu is: 4
+Time execution grad conv padding1 on GPU is:1955.1053047180176
+Here is grad_relu_sgx
+The time of a grad_relu is: 4
+Time execution res1D grad conv on GPU is:1738.060474395752
+Here is grad_relu_sgx
+The time of a grad_relu is: 4
+Time execution grad_conv 32 on GPU is:2132.28440284729
+Here is grad_relu_sgx
+The time of a grad_relu is: 6
+Time execution grad_res_conv on GPU is:1908.9648723602295
+Here is grad_relu_sgx
+The time of a grad_relu is: 13
+Time execution grad conv padding1 on GPU is:1724.3916988372803
+Here is grad_relu_sgx
+The time of a grad_relu is: 12
+Time execution res1D grad conv on GPU is:1717.047929763794
+Here is grad_relu_sgx
+The time of a grad_relu is: 7
+Time execution grad_conv 32 on GPU is:1811.4922046661377
+Here is grad_relu_sgx
+The time of a grad_relu is: 23
+Time execution grad_res_conv on GPU is:1719.7575569152832
+Here is grad_relu_sgx
+The time of a grad_relu is: 12
+Time execution grad conv padding1 on GPU is:1856.2567234039307
+Here is grad_relu_sgx
+The time of a grad_relu is: 22
+Time execution grad_res_conv on GPU is:1899.7678756713867
+Here is grad_relu_sgx
+The time of a grad_relu is: 14
+Time execution grad conv padding1 on GPU is:1847.7489948272705
+Here is grad maxpool kernel size of 2 hhhh
+The time of a grad_maxpool is: 114
+Here is grad_relu_sgx
+The time of a grad_relu is: 83
+Time execution grad conv padding1 on GPU is:1984.7230911254883
+relu time average each iteration:340.615
+grad relu time average each iteration:235.923
+maxpool time average each iteration:83.3846
+grad maxpool time average each iteration:175.385
+Here is the 0.130000 batch
+time of data initialization in non-secure world: 4378
+Time execution conv padding 1 on GPU is:2165.471076965332
+Here is relu_sgx
+The time of a relu is: 114
+time of relu computation in  sgx secure world: 10
+Here is maxpool kernel size of 2 hhhh
+The time of a maxpool is: 38
+Time execution conv padding 1 on GPU is:1956.4433097839355
+Here is relu_sgx
+The time of a relu is: 9
+Time execution resbconv padding1 on GPU is:2129.0786266326904
+Here is relu_sgx
+The time of a relu is: 29
+Time execution conv padding 1 on GPU is:1835.2024555206299
+Here is relu_sgx
+The time of a relu is: 30
+Time execution resbconv padding1 on GPU is:1715.881586074829
+Here is relu_sgx
+The time of a relu is: 22
+Time execution conv 32 on GPU is:1861.2909317016602
+Here is relu_sgx
+The time of a relu is: 19
+Time execution res1D conv on GPU is:1937.941312789917
+Here is relu_sgx
+The time of a relu is: 12
+Time execution conv padding 1 on GPU is:1731.2288284301758
+Here is relu_sgx
+The time of a relu is: 11
+Time execution resbconv padding1 on GPU is:1717.0219421386719
+Here is relu_sgx
+The time of a relu is: 11
+Time execution conv 32 on GPU is:1844.578504562378
+Here is relu_sgx
+The time of a relu is: 6
+Time execution res1D conv on GPU is:1697.8802680969238
+Here is relu_sgx
+The time of a relu is: 4
+Time execution conv padding 1 on GPU is:1652.0261764526367
+Here is relu_sgx
+The time of a relu is: 4
+Time execution resbconv padding1 on GPU is:1691.329002380371
+Here is relu_sgx
+The time of a relu is: 4
+Time execution conv 32 on GPU is:1696.817398071289
+Here is relu_sgx
+The time of a relu is: 3
+Time execution res1D conv on GPU is:2222.342014312744
+Here is relu_sgx
+The time of a relu is: 3
+Time execution conv padding 1 on GPU is:1781.7134857177734
+Here is relu_sgx
+The time of a relu is: 3
+Time execution resbconv padding1 on GPU is:1990.15474319458
+Here is relu_sgx
+The time of a relu is: 3
+Here is maxpool kernel size of 2 hhhh
+The time of a maxpool is: 6
+torch.Size([100, 512])
+torch.Size([512, 10])
+Time execution conv on fc GPU is:2057.5263500213623
+Here is relu_sgx
+The time of a relu is: 2
+Here is grad_relu_sgx
+The time of a grad_relu is: 7
+Time execution grad_fc on GPU is:1966.7532444000244
+Here is grad fc
+Here is grad maxpool kernel size of 2 hhhh
+The time of a grad_maxpool is: 7
+Here is grad_relu_sgx
+The time of a grad_relu is: 2

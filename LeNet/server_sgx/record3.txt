@@ -1,0 +1,109 @@
+Here is the 0.000000 batch
+time of data initialization in non-secure world: 18
+Time execution conv on GPU is:1.5412116050720215
+The time of a relu is: 5
+Time execution conv on GPU is:1.5379996299743652
+The time of a relu is: 2
+Time execution conv on GPU is:1.781616449356079
+The time of a relu is: 2
+Time execution fc on GPU is:0.8032855987548828
+torch.Size([1, 120])
+torch.Size([120, 10])
+The time of a relu is: 3
+Time execution grad_fc on GPU is:1.638777732849121
+Time execution grad_conv on GPU is:1.6331632137298584
+torch.Size([120, 16, 5, 5])
+The time of a maxpool is: 2
+Time execution grad_conv on GPU is:1.661714792251587
+torch.Size([16, 6, 5, 5])
+The time of a maxpool is: 2
+Time execution grad_conv on GPU is:1.6208889484405518
+torch.Size([6, 1, 5, 5])
+Here is the 0.000100 batch
+time of data initialization in non-secure world: 24982
+Time execution conv on GPU is:1.5636553764343262
+The time of a relu is: 2
+Time execution conv on GPU is:1.5783615112304688
+The time of a relu is: 3
+Time execution conv on GPU is:1.5408878326416016
+The time of a relu is: 2
+Time execution fc on GPU is:0.8109867572784424
+torch.Size([1, 120])
+torch.Size([120, 10])
+The time of a relu is: 3
+Time execution grad_fc on GPU is:1.6940875053405762
+Time execution grad_conv on GPU is:1.6229584217071533
+torch.Size([120, 16, 5, 5])
+The time of a maxpool is: 1
+Time execution grad_conv on GPU is:1.6484577655792236
+torch.Size([16, 6, 5, 5])
+The time of a maxpool is: 2
+Time execution grad_conv on GPU is:1.656172513961792
+torch.Size([6, 1, 5, 5])
+Here is the 0.000200 batch
+time of data initialization in non-secure world: 51231
+Time execution conv on GPU is:1.5372872352600098
+The time of a relu is: 3
+Time execution conv on GPU is:1.5396955013275146
+The time of a relu is: 2
+Time execution conv on GPU is:1.5447120666503906
+The time of a relu is: 2
+Time execution fc on GPU is:0.7909715175628662
+torch.Size([1, 120])
+torch.Size([120, 10])
+The time of a relu is: 2
+Time execution grad_fc on GPU is:1.5902962684631348
+Time execution grad_conv on GPU is:1.8034179210662842
+torch.Size([120, 16, 5, 5])
+The time of a maxpool is: 2
+Time execution grad_conv on GPU is:1.6516315937042236
+torch.Size([16, 6, 5, 5])
+The time of a maxpool is: 3
+Time execution grad_conv on GPU is:1.7375600337982178
+torch.Size([6, 1, 5, 5])
+Here is the 0.000300 batch
+time of data initialization in non-secure world: 76688
+Time execution conv on GPU is:1.5078630447387695
+The time of a relu is: 2
+Time execution conv on GPU is:1.5161654949188232
+The time of a relu is: 3
+Time execution conv on GPU is:1.5253007411956787
+The time of a relu is: 2
+Time execution fc on GPU is:0.8022036552429199
+torch.Size([1, 120])
+torch.Size([120, 10])
+The time of a relu is: 3
+Time execution grad_fc on GPU is:1.6342837810516357
+Time execution grad_conv on GPU is:1.6265201568603516
+torch.Size([120, 16, 5, 5])
+The time of a maxpool is: 2
+Time execution grad_conv on GPU is:1.8360624313354492
+torch.Size([16, 6, 5, 5])
+The time of a maxpool is: 3
+Time execution grad_conv on GPU is:1.6568200588226318
+torch.Size([6, 1, 5, 5])
+Here is the 0.000400 batch
+time of data initialization in non-secure world: 101577
+Time execution conv on GPU is:1.5314152240753174
+The time of a relu is: 3
+Time execution conv on GPU is:1.5379550457000732
+The time of a relu is: 3
+Time execution conv on GPU is:1.536210298538208
+The time of a relu is: 2
+Time execution fc on GPU is:0.7944574356079102
+torch.Size([1, 120])
+torch.Size([120, 10])
+The time of a relu is: 2
+Time execution grad_fc on GPU is:1.632777452468872
+Time execution grad_conv on GPU is:1.7472186088562012
+torch.Size([120, 16, 5, 5])
+The time of a maxpool is: 2
+Time execution grad_conv on GPU is:1.6683976650238037
+torch.Size([16, 6, 5, 5])
+The time of a maxpool is: 3
+Time execution grad_conv on GPU is:1.652294635772705
+torch.Size([6, 1, 5, 5])
+Here is the 0.000500 batch
+time of data initialization in non-secure world: 127082
+Time execution conv on GPU is:1.5322153568267822
+The time of a relu is: 3

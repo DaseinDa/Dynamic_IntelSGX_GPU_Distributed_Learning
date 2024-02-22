@@ -1,0 +1,1072 @@
+make[1]: Entering directory '/home/jin/2023_11_22_com_model/AlexNet_GPU_SGX_without_com/server_sgx'
+GEN  =>  Enclave/Enclave_t.h
+GEN  =>  ServerSGX/Enclave_u.h
+Enclave/Edger8rSyntax/Pointers.cpp: In function ‘int32_t checksum_internal(char*, size_t)’:
+Enclave/Edger8rSyntax/Pointers.cpp:47:22: warning: ISO C++17 does not allow ‘register’ storage class specifier [-Wregister]
+   47 |     register int32_t sum = 0;
+      |                      ^~~
+CXX  <=  Enclave/TrustedLibrary/Libc.cpp
+CXX  <=  Enclave/Edger8rSyntax/Functions.cpp
+CXX  <=  Enclave/Edger8rSyntax/Arrays.cpp
+CXX  <=  Enclave/Edger8rSyntax/Pointers.cpp
+CXX  <=  Enclave/TrustedLibrary/Thread.cpp
+CXX  <=  Enclave/Edger8rSyntax/Types.cpp
+CC   <=  ServerSGX/Enclave_u.c
+CC   <=  Enclave/Enclave_t.c
+In file included from ServerSGX/main.cpp:23:
+ServerSGX/alexnet.c:29:1: warning: multi-line comment [-Wcomment]
+   29 | // #define CONVOLUTE_VALID(input,output,weight)                                                                                 \
+      | ^
+ServerSGX/alexnet.c:38:1: warning: multi-line comment [-Wcomment]
+   38 | // #define CONVOLUTE_FULL(input,output,weight)                                                                                          \
+      | ^
+ServerSGX/alexnet.c:47:1: warning: multi-line comment [-Wcomment]
+   47 | // #define CONVOLUTION_FORWARD(input,output,weight,bias,action)                                 \
+      | ^
+ServerSGX/alexnet.c:57:1: warning: multi-line comment [-Wcomment]
+   57 | // #define Matrix_FC(input,output,weight)                                                                                       \
+      | ^
+ServerSGX/alexnet.c:67:1: warning: multi-line comment [-Wcomment]
+   67 | // #define FC(input,output,weight)\
+      | ^
+ServerSGX/alexnet.c:74:1: warning: multi-line comment [-Wcomment]
+   74 | // #define CONVOLUTION_BACKWARD(input,inerror,outerror,weight,wd,bd,actiongrad)\
+      | ^
+ServerSGX/alexnet.c:90:1: warning: multi-line comment [-Wcomment]
+   90 | // #define CONVOLUTION_BACKWARD(input,inerror,outerror,weight,wd,bd,actiongrad)\
+      | ^
+ServerSGX/alexnet.c:108:1: warning: multi-line comment [-Wcomment]
+  108 | // #define SUBSAMP_MAX_FORWARD(input,output)                                                                                                            \
+      | ^
+ServerSGX/alexnet.c:130:1: warning: multi-line comment [-Wcomment]
+  130 | // #define SUBSAMP_MAX_STRIDE_FORWARD(input,output,kernel_size,stride)                                                          \
+      | ^
+ServerSGX/alexnet.c:151:1: warning: multi-line comment [-Wcomment]
+  151 | // #define SUBSAMP_MAX_BACKWARD(input,inerror,outerror)                                                                                 \
+      | ^
+ServerSGX/alexnet.c:172:1: warning: multi-line comment [-Wcomment]
+  172 | // #define SUBSAMP_MAX_STRIDE_BACKWARD(input,inerror,outerror,kernel_size, stride)                                                                              \
+      | ^
+ServerSGX/alexnet.c:194:1: warning: multi-line comment [-Wcomment]
+  194 | // #define DOT_PRODUCT_FORWARD(input,output,weight,bias,action)                         \
+      | ^
+ServerSGX/alexnet.c:208:1: warning: multi-line comment [-Wcomment]
+  208 | // // #define DOT_PRODUCT_BACKWARD(input,inerror,outerror,weight,wd,bd,actiongrad)      \
+      | ^
+ServerSGX/alexnet.c:227:1: warning: multi-line comment [-Wcomment]
+  227 | // #define DOT_PRODUCT_BACKWARD(input,inerror,outerror,weight,wd,bd,actiongrad) \
+      | ^
+ServerSGX/alexnet.c:242:1: warning: multi-line comment [-Wcomment]
+  242 | // #define PADDING_fill(input_pad, input)                                                                                       \
+      | ^
+ServerSGX/alexnet.c:250:1: warning: multi-line comment [-Wcomment]
+  250 | // #define PADDING_remove(input, input_pad)                                                                                     \
+      | ^
+ServerSGX/main.cpp:81:60: warning: backslash and newline separated by space
+   81 |     shapen[0]=GETLENGTH(data);                             \
+      |                                                             
+ServerSGX/main.cpp:96:69: warning: backslash and newline separated by space
+   96 |     shapewn[0]=GETLENGTH(weight);                                   \
+      |                                                                      
+ServerSGX/main.cpp:104:69: warning: backslash and newline separated by space
+  104 | }                                                                   \
+      |                                                                      
+ServerSGX/main.cpp:111:69: warning: backslash and newline separated by space
+  111 |     shapebn[0]=GETLENGTH(bias);                                     \
+      |                                                                      
+ServerSGX/main.cpp:129:69: warning: backslash and newline separated by space
+  129 | }                                                                   \
+      |                                                                      
+ServerSGX/main.cpp:143:69: warning: backslash and newline separated by space
+  143 | }                                                                   \
+      |                                                                      
+ServerSGX/main.cpp:152:69: warning: backslash and newline separated by space
+  152 | }                                                                   \
+      |                                                                      
+In file included from Include/intrinsic/xmmintrin.h:34,
+                 from Include/intrinsic/emmintrin.h:31,
+                 from Include/Eigen/src/Core/util/ConfigureVectorization.h:346,
+                 from Include/Eigen/Core:22,
+                 from Include/Eigen/Dense:1,
+                 from Enclave/Enclave.cpp:39:
+Include/intrinsic/mm_malloc.h:34:16: warning: redundant redeclaration of ‘int posix_memalign(void**, size_t, size_t)’ in same scope [-Wredundant-decls]
+   34 | extern "C" int posix_memalign (void **, size_t, size_t) throw ();
+      |                ^~~~~~~~~~~~~~
+In file included from Enclave/Enclave.h:36,
+                 from Enclave/Enclave.cpp:32:
+/opt/intel/sgxsdk/include/tlibc/stdlib.h:105:23: note: previous declaration of ‘int posix_memalign(void**, size_t, size_t)’
+  105 | int     _TLIBC_CDECL_ posix_memalign(void **, size_t, size_t) throw ();
+      |                       ^~~~~~~~~~~~~~
+In file included from Include/intrinsic/emmintrin.h:31,
+                 from Include/Eigen/src/Core/util/ConfigureVectorization.h:346,
+                 from Include/Eigen/Core:22,
+                 from Include/Eigen/Dense:1,
+                 from Enclave/Enclave.cpp:39:
+Include/intrinsic/xmmintrin.h: In function ‘__m128 _mm_load_ps(const float*)’:
+Include/intrinsic/xmmintrin.h:927:11: warning: cast from type ‘const float*’ to type ‘__m128*’ {aka ‘__vector(4) float*’} casts away qualifiers [-Wcast-qual]
+  927 |   return *(__m128 *)__P;
+      |           ^~~~~~~~~~~~~
+Include/intrinsic/xmmintrin.h: In function ‘__m128 _mm_loadu_ps(const float*)’:
+Include/intrinsic/xmmintrin.h:934:11: warning: cast from type ‘const float*’ to type ‘__m128_u*’ {aka ‘__vector(4) float*’} casts away qualifiers [-Wcast-qual]
+  934 |   return *(__m128_u *)__P;
+      |           ^~~~~~~~~~~~~~~
+Include/intrinsic/xmmintrin.h: In function ‘__m128 _mm_loadr_ps(const float*)’:
+Include/intrinsic/xmmintrin.h:941:19: warning: cast from type ‘const float*’ to type ‘__v4sf*’ {aka ‘__vector(4) float*’} casts away qualifiers [-Wcast-qual]
+  941 |   __v4sf __tmp = *(__v4sf *)__P;
+      |                   ^~~~~~~~~~~~~
+In file included from Include/Eigen/src/Core/util/ConfigureVectorization.h:346,
+                 from Include/Eigen/Core:22,
+                 from Include/Eigen/Dense:1,
+                 from Enclave/Enclave.cpp:39:
+Include/intrinsic/emmintrin.h: In function ‘__m128d _mm_load_pd(const double*)’:
+Include/intrinsic/emmintrin.h:127:11: warning: cast from type ‘const double*’ to type ‘__m128d*’ {aka ‘__vector(2) double*’} casts away qualifiers [-Wcast-qual]
+  127 |   return *(__m128d *)__P;
+      |           ^~~~~~~~~~~~~~
+Include/intrinsic/emmintrin.h: In function ‘__m128d _mm_loadu_pd(const double*)’:
+Include/intrinsic/emmintrin.h:134:11: warning: cast from type ‘const double*’ to type ‘__m128d_u*’ {aka ‘__vector(2) double*’} casts away qualifiers [-Wcast-qual]
+  134 |   return *(__m128d_u *)__P;
+      |           ^~~~~~~~~~~~~~~~
+Include/intrinsic/emmintrin.h: In function ‘__m128i _mm_loadl_epi64(const __m128i_u*)’:
+Include/intrinsic/emmintrin.h:712:38: warning: cast from type ‘const __m128i_u*’ {aka ‘const __vector(2) long long int*’} to type ‘__m64_u*’ {aka ‘__vector(2) int*’} casts away qualifiers [-Wcast-qual]
+  712 |   return _mm_set_epi64 ((__m64)0LL, *(__m64_u *)__P);
+      |                                      ^~~~~~~~~~~~~~
+Include/intrinsic/emmintrin.h: In function ‘__m128i _mm_loadu_si64(const void*)’:
+Include/intrinsic/emmintrin.h:718:27: warning: cast from type ‘const void*’ to type ‘__m128i_u*’ {aka ‘__vector(2) long long int*’} casts away qualifiers [-Wcast-qual]
+  718 |   return _mm_loadl_epi64 ((__m128i_u *)__P);
+      |                           ^~~~~~~~~~~~~~~~
+Include/intrinsic/emmintrin.h: In function ‘__m128i _mm_loadu_si32(const void*)’:
+Include/intrinsic/emmintrin.h:724:36: warning: cast from type ‘const void*’ to type ‘__m32_u*’ {aka ‘__vector(1) int*’} casts away qualifiers [-Wcast-qual]
+  724 |   return _mm_set_epi32 (0, 0, 0, (*(__m32_u *)__P)[0]);
+      |                                    ^~~~~~~~~~~~~~
+Include/intrinsic/emmintrin.h: In function ‘__m128i _mm_loadu_si16(const void*)’:
+Include/intrinsic/emmintrin.h:730:48: warning: cast from type ‘const void*’ to type ‘__m16_u*’ {aka ‘__vector(1) short int*’} casts away qualifiers [-Wcast-qual]
+  730 |   return _mm_set_epi16 (0, 0, 0, 0, 0, 0, 0, (*(__m16_u *)__P)[0]);
+      |                                                ^~~~~~~~~~~~~~
+In file included from ServerSGX/main.cpp:5:
+ServerSGX/hybridsgx_util.h:88:6: warning: redundant redeclaration of ‘void ocall_print_string(const char*)’ in same scope [-Wredundant-decls]
+   88 | void ocall_print_string(const char *str);
+      |      ^~~~~~~~~~~~~~~~~~
+In file included from /opt/intel/sgxsdk/include/sgx_urts.h:40,
+                 from ServerSGX/main.cpp:3:
+ServerSGX/Enclave_u.h:44:36: note: previous declaration of ‘void ocall_print_string(const char*)’
+   44 | void SGX_UBRIDGE(SGX_NOCONVENTION, ocall_print_string, (const char* str));
+      |                                    ^~~~~~~~~~~~~~~~~~
+/opt/intel/sgxsdk/include/sgx_defs.h:49:48: note: in definition of macro ‘SGX_UBRIDGE’
+   49 | #define SGX_UBRIDGE(attr, fname, args...) attr fname args
+      |                                                ^~~~~
+In file included from ServerSGX/hybridsgx_util.cpp:44:
+ServerSGX/hybridsgx_util.h:88:6: warning: redundant redeclaration of ‘void ocall_print_string(const char*)’ in same scope [-Wredundant-decls]
+   88 | void ocall_print_string(const char *str);
+      |      ^~~~~~~~~~~~~~~~~~
+In file included from /opt/intel/sgxsdk/include/sgx_urts.h:40,
+                 from ServerSGX/hybridsgx_util.cpp:41:
+ServerSGX/Enclave_u.h:44:36: note: previous declaration of ‘void ocall_print_string(const char*)’
+   44 | void SGX_UBRIDGE(SGX_NOCONVENTION, ocall_print_string, (const char* str));
+      |                                    ^~~~~~~~~~~~~~~~~~
+/opt/intel/sgxsdk/include/sgx_defs.h:49:48: note: in definition of macro ‘SGX_UBRIDGE’
+   49 | #define SGX_UBRIDGE(attr, fname, args...) attr fname args
+      |                                                ^~~~~
+CXX  <=  ServerSGX/Edger8rSyntax/Arrays.cpp
+ServerSGX/util/basicSockets.cpp: In function ‘char** getIPAddresses(int)’:
+ServerSGX/util/basicSockets.cpp:110:11: warning: declaration of ‘ip’ shadows a previous local [-Wshadow]
+  110 |     char* ip=new char[INET_ADDRSTRLEN];
+      |           ^~
+ServerSGX/util/basicSockets.cpp:104:10: note: shadowed declaration is here
+  104 |   string ip = getPublicIp();
+      |          ^~
+ServerSGX/util/basicSockets.cpp: In constructor ‘BmrNet::BmrNet(char*, int)’:
+ServerSGX/util/basicSockets.cpp:152:22: warning: declaration of ‘host’ shadows a member of ‘BmrNet’ [-Wshadow]
+  152 | BmrNet::BmrNet(char* host, int portno) {
+      |                ~~~~~~^~~~
+In file included from ServerSGX/util/basicSockets.cpp:10:
+ServerSGX/util/basicSockets.h:95:16: note: shadowed declaration is here
+   95 |         char * host;
+      |                ^~~~
+ServerSGX/util/basicSockets.cpp: In constructor ‘BmrNet::BmrNet(char*, int)’:
+ServerSGX/util/basicSockets.cpp:152:22: warning: declaration of ‘host’ shadows a member of ‘BmrNet’ [-Wshadow]
+  152 | BmrNet::BmrNet(char* host, int portno) {
+      |                ~~~~~~^~~~
+In file included from ServerSGX/util/basicSockets.cpp:10:
+ServerSGX/util/basicSockets.h:95:16: note: shadowed declaration is here
+   95 |         char * host;
+      |                ^~~~
+ServerSGX/util/basicSockets.cpp: In constructor ‘BmrNet::BmrNet(char*, int)’:
+ServerSGX/util/basicSockets.cpp:152:22: warning: declaration of ‘host’ shadows a member of ‘BmrNet’ [-Wshadow]
+  152 | BmrNet::BmrNet(char* host, int portno) {
+      |                ~~~~~~^~~~
+In file included from ServerSGX/util/basicSockets.cpp:10:
+ServerSGX/util/basicSockets.h:95:16: note: shadowed declaration is here
+   95 |         char * host;
+      |                ^~~~
+ServerSGX/util/basicSockets.cpp: In constructor ‘BmrNet::BmrNet(int)’:
+ServerSGX/util/basicSockets.cpp:172:22: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  172 |         this->host = "";
+      |                      ^~
+ServerSGX/util/basicSockets.cpp: In member function ‘bool BmrNet::listenNow()’:
+ServerSGX/util/basicSockets.cpp:209:42: warning: conversion from ‘unsigned int’ to ‘uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+  209 |         serv_addr.sin_port = htons(this->port);
+      |                                    ~~~~~~^~~~
+ServerSGX/util/basicSockets.cpp: In member function ‘bool BmrNet::connectNow()’:
+ServerSGX/util/basicSockets.cpp:296:73: warning: conversion from ‘unsigned int’ to ‘uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+  296 |                 serv_addr[conn].sin_port                        = htons(port);
+      |                                                                         ^~~~
+ServerSGX/util/basicSockets.cpp:263:25: warning: unused variable ‘server’ [-Wunused-variable]
+  263 |         struct hostent *server;
+      |                         ^~~~~~
+ServerSGX/util/basicSockets.cpp:264:13: warning: unused variable ‘n’ [-Wunused-variable]
+  264 |         int n;
+      |             ^
+ServerSGX/util/basicSockets.cpp: In member function ‘bool BmrNet::sendMsg(const void*, int, int)’:
+ServerSGX/util/basicSockets.cpp:323:55: warning: cast from type ‘const void*’ to type ‘char*’ casts away qualifiers [-Wcast-qual]
+  323 |                 n = Sockwrite(this->socketFd[conn], &((char*)data)[size - left], left);
+      |                                                       ^~~~~~~~~~~
+ServerSGX/util/basicSockets.cpp:31:57: note: in definition of macro ‘Sockwrite’
+   31 |         #define Sockwrite(sock, data, size) write(sock, data, size)
+      |                                                         ^~~~
+ServerSGX/util/basicSockets.cpp:31:50: warning: conversion from ‘ssize_t’ {aka ‘long int’} to ‘int’ may change value [-Wconversion]
+   31 |         #define Sockwrite(sock, data, size) write(sock, data, size)
+      |                                             ~~~~~^~~~~~~~~~~~~~~~~~
+ServerSGX/util/basicSockets.cpp:323:21: note: in expansion of macro ‘Sockwrite’
+  323 |                 n = Sockwrite(this->socketFd[conn], &((char*)data)[size - left], left);
+      |                     ^~~~~~~~~
+ServerSGX/util/basicSockets.cpp: In member function ‘bool BmrNet::receiveMsg(void*, int, int)’:
+ServerSGX/util/basicSockets.cpp:32:54: warning: conversion from ‘ssize_t’ {aka ‘long int’} to ‘int’ may change value [-Wconversion]
+   32 |         #define Sockread(sock, buff, bufferSize) read(sock, buff, bufferSize)
+      |                                                  ~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+ServerSGX/util/basicSockets.cpp:347:21: note: in expansion of macro ‘Sockread’
+  347 |                 n = Sockread(this->socketFd[conn], &((char*)buff)[size-left], left);
+      |                     ^~~~~~~~
+CXX  <=  Enclave/TrustedLibrary/Libcxx.cpp
+ServerSGX/util/basicSockets.cpp: In function ‘int getPartyNum(char*)’:
+ServerSGX/util/basicSockets.cpp:150:1: warning: control reaches end of non-void function [-Wreturn-type]
+  150 | }
+      | ^
+In file included from ServerSGX/util/Profiler.cpp:1:
+ServerSGX/util/Profiler.h: In constructor ‘Profiler::Profiler()’:
+ServerSGX/util/Profiler.h:49:12: warning: ‘Profiler::bytes_rx’ will be initialized after [-Wreorder]
+   49 |     size_t bytes_rx;
+      |            ^~~~~~~~
+ServerSGX/util/Profiler.h:44:12: warning:   ‘double Profiler::max_mem_mb’ [-Wreorder]
+   44 |     double max_mem_mb;
+      |            ^~~~~~~~~~
+ServerSGX/util/Profiler.cpp:4:1: warning:   when initialized here [-Wreorder]
+    4 | Profiler::Profiler() : running(false), total(0), mem_mb(0.0), rounds(0), bytes_tx(0), bytes_rx(0), max_mem_mb(0.0) {
+      | ^~~~~~~~
+ServerSGX/util/Profiler.cpp: In member function ‘void Profiler::accumulate(std::string)’:
+ServerSGX/util/Profiler.cpp:34:16: warning: conversion from ‘std::chrono::duration<long int, std::ratio<1, 1000000> >::rep’ {aka ‘long int’} to ‘double’ may change value [-Wconversion]
+   32 |         double us_elapsed = std::chrono::duration_cast<std::chrono::microseconds>(
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   33 |             std::chrono::system_clock::now() - start_time
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   34 |         ).count();
+      |         ~~~~~~~^~
+ServerSGX/util/Profiler.cpp: In member function ‘void Profiler::tag_mem()’:
+ServerSGX/util/Profiler.cpp:76:12: warning: conversion from ‘std::chrono::duration<long int, std::ratio<1, 1000> >::rep’ {aka ‘long int’} to ‘double’ may change value [-Wconversion]
+   74 |     double ms_elapsed = std::chrono::duration_cast<std::chrono::milliseconds>(
+      |                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   75 |         std::chrono::system_clock::now() - start_time
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   76 |     ).count();
+      |     ~~~~~~~^~
+ServerSGX/util/Profiler.cpp: In member function ‘void Profiler::dump_comm_bytes()’:
+ServerSGX/util/Profiler.cpp:125:57: warning: conversion from ‘size_t’ {aka ‘long unsigned int’} to ‘double’ may change value [-Wconversion]
+  125 |     std::cout << "Communication bytes | sent (MB): " << bytes_tx / (1024.0 * 1024.0) <<  " received (MB): " << bytes_rx / (1024.0 * 1024.0);
+      |                                                         ^~~~~~~~
+ServerSGX/util/Profiler.cpp:125:112: warning: conversion from ‘size_t’ {aka ‘long unsigned int’} to ‘double’ may change value [-Wconversion]
+  125 |     std::cout << "Communication bytes | sent (MB): " << bytes_tx / (1024.0 * 1024.0) <<  " received (MB): " << bytes_rx / (1024.0 * 1024.0);
+      |                                                                                                                ^~~~~~~~
+CXX  <=  ServerSGX/util/basicSockets.cpp
+CXX  <=  ServerSGX/Edger8rSyntax/Pointers.cpp
+ServerSGX/util/connect.cpp: In function ‘void initializeCommunication(int*, int)’:
+ServerSGX/util/connect.cpp:59:18: warning: declaration of ‘i’ shadows a previous local [-Wshadow]
+   59 |         for (int i = 0; i < 2 * num_parties; i++)
+      |                  ^
+ServerSGX/util/connect.cpp:47:13: note: shadowed declaration is here
+   47 |         int i;
+      |             ^
+CXX  <=  ServerSGX/Edger8rSyntax/Functions.cpp
+Enclave/Enclave.cpp: In function ‘void sgx_encode(uint64_t*)’:
+Enclave/Enclave.cpp:68:27: warning: unused parameter ‘_data’ [-Wunused-parameter]
+   68 | void sgx_encode(uint64_t *_data){
+      |                 ~~~~~~~~~~^~~~~
+Enclave/Enclave.cpp: In function ‘void Scalar_SGX_val(uint64_t*, uint64_t*)’:
+Enclave/Enclave.cpp:93:28: warning: argument to ‘sizeof’ in ‘void* memcpy(void*, const void*, size_t)’ call is the same pointer type ‘uint64_t*’ {aka ‘long unsigned int*’} as the destination; expected ‘uint64_t’ {aka ‘long unsigned int’} or an explicit length [-Wsizeof-pointer-memaccess]
+   93 |         memcpy(_data, val, sizeof(val));
+      |                            ^~~~~~~~~~~
+Enclave/Enclave.cpp: In function ‘void relu_sgx(double*, double*, size_t)’:
+Enclave/Enclave.cpp:117:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+  117 |         for(int i =0;i<n;i++){
+      |                      ~^~
+Enclave/Enclave.cpp: In function ‘void grad_relu_sgx(double*, double*, size_t)’:
+Enclave/Enclave.cpp:170:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+  170 |         for(int i =0;i<n;i++){
+      |                      ~^~
+Enclave/Enclave.cpp: In function ‘void grad_maxpool_2_sgx(double*, double*, double*, int*, size_t, size_t)’:
+Enclave/Enclave.cpp:42:44: warning: comparison of integer expressions of different signedness: ‘int’ and ‘long unsigned int’ [-Wsign-compare]
+   42 | #define FOREACH(i,count) for (int i = 0; i < count; ++i)
+      |                                            ^
+Enclave/Enclave.cpp:189:9: note: in expansion of macro ‘FOREACH’
+  189 |         FOREACH(b, GETLENGTH(outerror))
+      |         ^~~~~~~
+Enclave/Enclave.cpp:42:44: warning: comparison of integer expressions of different signedness: ‘int’ and ‘long unsigned int’ [-Wsign-compare]
+   42 | #define FOREACH(i,count) for (int i = 0; i < count; ++i)
+      |                                            ^
+Enclave/Enclave.cpp:190:9: note: in expansion of macro ‘FOREACH’
+  190 |         FOREACH(i, GETLENGTH(*outerror))                                                                                                                                \
+      |         ^~~~~~~
+Enclave/Enclave.cpp:42:44: warning: comparison of integer expressions of different signedness: ‘int’ and ‘long unsigned int’ [-Wsign-compare]
+   42 | #define FOREACH(i,count) for (int i = 0; i < count; ++i)
+      |                                            ^
+Enclave/Enclave.cpp:191:9: note: in expansion of macro ‘FOREACH’
+  191 |         FOREACH(o0, GETLENGTH(**(outerror)))                                                                                                                    \
+      |         ^~~~~~~
+Enclave/Enclave.cpp:42:44: warning: comparison of integer expressions of different signedness: ‘int’ and ‘long unsigned int’ [-Wsign-compare]
+   42 | #define FOREACH(i,count) for (int i = 0; i < count; ++i)
+      |                                            ^
+Enclave/Enclave.cpp:192:9: note: in expansion of macro ‘FOREACH’
+  192 |         FOREACH(o1, GETLENGTH(***(outerror)))                                                                                                           \
+      |         ^~~~~~~
+Enclave/Enclave.cpp:178:34: warning: unused parameter ‘data_out_error’ [-Wunused-parameter]
+  178 | void grad_maxpool_2_sgx(double * data_out_error, double * data_in_error, double * data_input,int* shape_input, size_t n_out, size_t n_in){
+      |                         ~~~~~~~~~^~~~~~~~~~~~~~
+Enclave/Enclave.cpp: In function ‘void maxpool_str_sgx(double*, double*, int*, size_t, size_t, size_t, size_t)’:
+Enclave/Enclave.cpp:214:24: warning: conversion from ‘size_t’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+  214 |         int len0, len1=kernel_size;
+      |                        ^~~~~~~~~~~
+Enclave/Enclave.cpp:215:16: warning: conversion from ‘size_t’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+  215 |         int s =stride;
+      |                ^~~~~~
+Enclave/Enclave.cpp:42:44: warning: comparison of integer expressions of different signedness: ‘int’ and ‘long unsigned int’ [-Wsign-compare]
+   42 | #define FOREACH(i,count) for (int i = 0; i < count; ++i)
+      |                                            ^
+Enclave/Enclave.cpp:216:9: note: in expansion of macro ‘FOREACH’
+  216 |         FOREACH(b, GETLENGTH(output))
+      |         ^~~~~~~
+Enclave/Enclave.cpp:42:44: warning: comparison of integer expressions of different signedness: ‘int’ and ‘long unsigned int’ [-Wsign-compare]
+   42 | #define FOREACH(i,count) for (int i = 0; i < count; ++i)
+      |                                            ^
+Enclave/Enclave.cpp:217:9: note: in expansion of macro ‘FOREACH’
+  217 |         FOREACH(i,GETLENGTH(*output))                                                                                                                           \
+      |         ^~~~~~~
+Enclave/Enclave.cpp:42:44: warning: comparison of integer expressions of different signedness: ‘int’ and ‘long unsigned int’ [-Wsign-compare]
+   42 | #define FOREACH(i,count) for (int i = 0; i < count; ++i)
+      |                                            ^
+Enclave/Enclave.cpp:218:17: note: in expansion of macro ‘FOREACH’
+  218 |                 FOREACH(o0,GETLENGTH(**(output)))                                                                                                               \
+      |                 ^~~~~~~
+Enclave/Enclave.cpp:42:44: warning: comparison of integer expressions of different signedness: ‘int’ and ‘long unsigned int’ [-Wsign-compare]
+   42 | #define FOREACH(i,count) for (int i = 0; i < count; ++i)
+      |                                            ^
+Enclave/Enclave.cpp:219:25: note: in expansion of macro ‘FOREACH’
+  219 |                         FOREACH(o1,GETLENGTH(***(output)))                                                                                                      \
+      |                         ^~~~~~~
+Enclave/Enclave.cpp: In function ‘void grad_maxpool_str_sgx(double*, double*, double*, int*, size_t, size_t, size_t, size_t)’:
+Enclave/Enclave.cpp:244:26: warning: conversion from ‘size_t’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+  244 |         const int len0 = kernel;                                                                                                                                \
+      |                          ^~~~~~
+Enclave/Enclave.cpp:245:26: warning: conversion from ‘size_t’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+  245 |         const int len1 = kernel;                                                                                                                                \
+      |                          ^~~~~~
+Enclave/Enclave.cpp:246:23: warning: conversion from ‘size_t’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+  246 |         const int s = stride;
+      |                       ^~~~~~
+Enclave/Enclave.cpp:42:44: warning: comparison of integer expressions of different signedness: ‘int’ and ‘long unsigned int’ [-Wsign-compare]
+   42 | #define FOREACH(i,count) for (int i = 0; i < count; ++i)
+      |                                            ^
+Enclave/Enclave.cpp:247:9: note: in expansion of macro ‘FOREACH’
+  247 |         FOREACH(b, GETLENGTH(outerror))                                                                                                                 \
+      |         ^~~~~~~
+Enclave/Enclave.cpp:42:44: warning: comparison of integer expressions of different signedness: ‘int’ and ‘long unsigned int’ [-Wsign-compare]
+   42 | #define FOREACH(i,count) for (int i = 0; i < count; ++i)
+      |                                            ^
+Enclave/Enclave.cpp:248:9: note: in expansion of macro ‘FOREACH’
+  248 |         FOREACH(i, GETLENGTH(*outerror))                                                                                                                                \
+      |         ^~~~~~~
+Enclave/Enclave.cpp:42:44: warning: comparison of integer expressions of different signedness: ‘int’ and ‘long unsigned int’ [-Wsign-compare]
+   42 | #define FOREACH(i,count) for (int i = 0; i < count; ++i)
+      |                                            ^
+Enclave/Enclave.cpp:249:9: note: in expansion of macro ‘FOREACH’
+  249 |         FOREACH(o0, GETLENGTH(**(outerror)))                                                                                                                    \
+      |         ^~~~~~~
+Enclave/Enclave.cpp:42:44: warning: comparison of integer expressions of different signedness: ‘int’ and ‘long unsigned int’ [-Wsign-compare]
+   42 | #define FOREACH(i,count) for (int i = 0; i < count; ++i)
+      |                                            ^
+Enclave/Enclave.cpp:250:9: note: in expansion of macro ‘FOREACH’
+  250 |         FOREACH(o1, GETLENGTH(***(outerror)))                                                                                                           \
+      |         ^~~~~~~
+Enclave/Enclave.cpp:236:36: warning: unused parameter ‘data_out_error’ [-Wunused-parameter]
+  236 | void grad_maxpool_str_sgx(double * data_out_error, double * data_in_error, double * data_input,int* shape_input, size_t n_out, size_t n_in, size_t kernel,size_t stride){
+      |                           ~~~~~~~~~^~~~~~~~~~~~~~
+CXX  <=  ServerSGX/util/Profiler.cpp
+Enclave/Enclave.cpp: In function ‘void maxpool_str_sgx(double*, double*, int*, size_t, size_t, size_t, size_t)’:
+Enclave/Enclave.cpp:42:44: warning: ‘len0’ may be used uninitialized [-Wmaybe-uninitialized]
+   42 | #define FOREACH(i,count) for (int i = 0; i < count; ++i)
+      |                                            ^
+Enclave/Enclave.cpp:214:13: note: ‘len0’ was declared here
+  214 |         int len0, len1=kernel_size;
+      |             ^~~~
+CXX  <=  Enclave/Enclave.cpp
+CXX  <=  ServerSGX/Edger8rSyntax/Types.cpp
+LINK =>  enclave.so
+There is no enclave test key<Enclave_private_test.pem>.
+CXX  <=  ServerSGX/TrustedLibrary/Libc.cpp
+The project will generate a key<Enclave_private_test.pem> for test.
+ServerSGX/hybridsgx_util.cpp: In member function ‘sgx_enclave_id_t SGX::initial()’:
+ServerSGX/hybridsgx_util.cpp:241:22: warning: declaration of ‘enclave_eid’ shadows a member of ‘SGX’ [-Wshadow]
+  241 |     sgx_enclave_id_t enclave_eid=0;
+      |                      ^~~~~~~~~~~
+In file included from ServerSGX/hybridsgx_util.cpp:44:
+ServerSGX/hybridsgx_util.h:96:26: note: shadowed declaration is here
+   96 |         sgx_enclave_id_t enclave_eid = initial();
+      |                          ^~~~~~~~~~~
+CXX  <=  ServerSGX/TrustedLibrary/Libcxx.cpp
+CXX  <=  ServerSGX/util/connect.cpp
+CXX  <=  ServerSGX/hybridsgx_util.cpp
+In file included from ServerSGX/main.cpp:24:
+ServerSGX/npy.hpp: In function ‘npy::dtype_t npy::parse_descr(std::string)’:
+ServerSGX/npy.hpp:168:37: warning: conversion from ‘long unsigned int’ to ‘unsigned int’ may change value [-Wconversion]
+  168 |   unsigned int itemsize = std::stoul(itemsize_s);
+      |                           ~~~~~~~~~~^~~~~~~~~~~~
+In file included from ServerSGX/main.cpp:23:
+ServerSGX/main.cpp: In function ‘void load_input_four(Feature*, uint8 (*)[28], int)’:
+ServerSGX/alexnet.c:15:45: warning: comparison of integer expressions of different signedness: ‘int’ and ‘long unsigned int’ [-Wsign-compare]
+   15 |  #define FOREACH(i,count) for (int i = 0; i < count; ++i)
+ServerSGX/main.cpp:173:9: note: in expansion of macro ‘FOREACH’
+  173 |         FOREACH(j, sizeof(image) / sizeof(*input))
+      |         ^~~~~~~
+ServerSGX/alexnet.c:15:45: warning: comparison of integer expressions of different signedness: ‘int’ and ‘long unsigned int’ [-Wsign-compare]
+   15 |  #define FOREACH(i,count) for (int i = 0; i < count; ++i)
+ServerSGX/main.cpp:174:17: note: in expansion of macro ‘FOREACH’
+  174 |                 FOREACH(k, sizeof(*input) / sizeof(**input))
+      |                 ^~~~~~~
+ServerSGX/alexnet.c:15:45: warning: comparison of integer expressions of different signedness: ‘int’ and ‘long unsigned int’ [-Wsign-compare]
+   15 |  #define FOREACH(i,count) for (int i = 0; i < count; ++i)
+ServerSGX/main.cpp:181:9: note: in expansion of macro ‘FOREACH’
+  181 |         FOREACH(j, sizeof(image) / sizeof(*input))
+      |         ^~~~~~~
+ServerSGX/alexnet.c:15:45: warning: comparison of integer expressions of different signedness: ‘int’ and ‘long unsigned int’ [-Wsign-compare]
+   15 |  #define FOREACH(i,count) for (int i = 0; i < count; ++i)
+ServerSGX/main.cpp:182:17: note: in expansion of macro ‘FOREACH’
+  182 |                 FOREACH(k, sizeof(*input) / sizeof(**input))
+      |                 ^~~~~~~
+ServerSGX/main.cpp: In function ‘void grad_relu(int, double*, size_t)’:
+ServerSGX/main.cpp:196:20: warning: declaration of ‘global_server_eid’ shadows a global declaration [-Wshadow]
+  196 | void grad_relu(int global_server_eid, double *input, size_t n){
+      |                ~~~~^~~~~~~~~~~~~~~~~
+ServerSGX/main.cpp:71:18: note: shadowed declaration is here
+   71 | sgx_enclave_id_t global_server_eid = 0;
+      |                  ^~~~~~~~~~~~~~~~~
+ServerSGX/main.cpp: In function ‘void grad_maxpool(int, double*, double*, double*, int, int, size_t, size_t)’:
+ServerSGX/main.cpp:203:23: warning: declaration of ‘global_server_eid’ shadows a global declaration [-Wshadow]
+  203 | void grad_maxpool(int global_server_eid, double *outerror, double *inerror, double *input,int C, int input_length, size_t n_out, size_t n_in){
+      |                   ~~~~^~~~~~~~~~~~~~~~~
+ServerSGX/main.cpp:71:18: note: shadowed declaration is here
+   71 | sgx_enclave_id_t global_server_eid = 0;
+      |                  ^~~~~~~~~~~~~~~~~
+ServerSGX/main.cpp: In function ‘void grad_stride_maxpool(int, double*, double*, double*, int, int, size_t, size_t, size_t, size_t)’:
+ServerSGX/main.cpp:214:30: warning: declaration of ‘global_server_eid’ shadows a global declaration [-Wshadow]
+  214 | void grad_stride_maxpool(int global_server_eid, double *outerror, double *inerror, double *input,int C, int input_length, size_t n_out, size_t n_in,size_t kernel, size_t stride){
+      |                          ~~~~^~~~~~~~~~~~~~~~~
+ServerSGX/main.cpp:71:18: note: shadowed declaration is here
+   71 | sgx_enclave_id_t global_server_eid = 0;
+      |                  ^~~~~~~~~~~~~~~~~
+ServerSGX/main.cpp: At global scope:
+ServerSGX/main.cpp:239:5: warning: ‘int main(int)’ takes only zero or two arguments [-Wmain]
+  239 | int main(int argc){
+      |     ^~~~
+ServerSGX/main.cpp: In function ‘int main(int)’:
+ServerSGX/main.cpp:331:24: warning: missing initializer for member ‘Feature::layer1_conv’ [-Wmissing-field-initializers]
+  331 |     Feature features={0};
+      |                        ^
+ServerSGX/main.cpp:331:24: warning: missing initializer for member ‘Feature::layer1_pool’ [-Wmissing-field-initializers]
+ServerSGX/main.cpp:331:24: warning: missing initializer for member ‘Feature::layer2_conv’ [-Wmissing-field-initializers]
+ServerSGX/main.cpp:331:24: warning: missing initializer for member ‘Feature::layer2_pool’ [-Wmissing-field-initializers]
+ServerSGX/main.cpp:331:24: warning: missing initializer for member ‘Feature::layer3_conv’ [-Wmissing-field-initializers]
+ServerSGX/main.cpp:331:24: warning: missing initializer for member ‘Feature::layer4_conv’ [-Wmissing-field-initializers]
+ServerSGX/main.cpp:331:24: warning: missing initializer for member ‘Feature::layer5_conv’ [-Wmissing-field-initializers]
+ServerSGX/main.cpp:331:24: warning: missing initializer for member ‘Feature::layer5_pool’ [-Wmissing-field-initializers]
+ServerSGX/main.cpp:331:24: warning: missing initializer for member ‘Feature::fc1’ [-Wmissing-field-initializers]
+ServerSGX/main.cpp:331:24: warning: missing initializer for member ‘Feature::fc2’ [-Wmissing-field-initializers]
+ServerSGX/main.cpp:331:24: warning: missing initializer for member ‘Feature::output’ [-Wmissing-field-initializers]
+ServerSGX/main.cpp:354:54: warning: declaration of ‘shape_v’ shadows a previous local [-Wshadow]
+  354 |     VECTOR_DATA_W_FILE(features.input,shape_n,data_v,shape_v,data_npy_file);
+      |                                                      ^~~~~~~
+ServerSGX/main.cpp:85:32: note: in definition of macro ‘VECTOR_DATA_W_FILE’
+   85 |     std::vector<unsigned long> shapev(shapen,shapen+4);     \
+      |                                ^~~~~~
+ServerSGX/main.cpp:353:32: note: shadowed declaration is here
+  353 |     std::vector<unsigned long> shape_v;
+      |                                ^~~~~~~
+CXX  <=  ServerSGX/TrustedLibrary/Thread.cpp
+ServerSGX/main.cpp:359:61: warning: declaration of ‘shape_wv’ shadows a previous local [-Wshadow]
+  359 |     VECTOR_WEIGHT_W_FILE(alexnet->weight1,shape_wn,weight_v,shape_wv,weight_npy_file);
+      |                                                             ^~~~~~~~
+ServerSGX/main.cpp:100:32: note: in definition of macro ‘VECTOR_WEIGHT_W_FILE’
+  100 |     std::vector<unsigned long> shapewv(shapewn,shapewn+4);          \
+      |                                ^~~~~~~
+ServerSGX/main.cpp:358:32: note: shadowed declaration is here
+  358 |     std::vector<unsigned long> shape_wv;
+      |                                ^~~~~~~~
+ServerSGX/main.cpp:364:55: warning: declaration of ‘shape_bv’ shadows a previous local [-Wshadow]
+  364 |     VECTOR_BIAS_W_FILE(alexnet->bias1,shape_bn,bias_v,shape_bv,bias_npy_file);
+      |                                                       ^~~~~~~~
+ServerSGX/main.cpp:112:32: note: in definition of macro ‘VECTOR_BIAS_W_FILE’
+  112 |     std::vector<unsigned long> shapebv(shapebn,shapebn+1);          \
+      |                                ^~~~~~~
+ServerSGX/main.cpp:363:32: note: shadowed declaration is here
+  363 |     std::vector<unsigned long> shape_bv;
+      |                                ^~~~~~~~
+ServerSGX/main.cpp:394:60: warning: declaration of ‘shape_v’ shadows a previous local [-Wshadow]
+  394 |     VECTOR_DATA_W_FILE(features.layer1_pool,shape_n,data_v,shape_v,data_npy_file);
+      |                                                            ^~~~~~~
+ServerSGX/main.cpp:85:32: note: in definition of macro ‘VECTOR_DATA_W_FILE’
+   85 |     std::vector<unsigned long> shapev(shapen,shapen+4);     \
+      |                                ^~~~~~
+ServerSGX/main.cpp:353:32: note: shadowed declaration is here
+  353 |     std::vector<unsigned long> shape_v;
+      |                                ^~~~~~~
+ServerSGX/main.cpp:396:61: warning: declaration of ‘shape_wv’ shadows a previous local [-Wshadow]
+  396 |     VECTOR_WEIGHT_W_FILE(alexnet->weight2,shape_wn,weight_v,shape_wv,weight_npy_file);
+      |                                                             ^~~~~~~~
+ServerSGX/main.cpp:100:32: note: in definition of macro ‘VECTOR_WEIGHT_W_FILE’
+  100 |     std::vector<unsigned long> shapewv(shapewn,shapewn+4);          \
+      |                                ^~~~~~~
+ServerSGX/main.cpp:358:32: note: shadowed declaration is here
+  358 |     std::vector<unsigned long> shape_wv;
+      |                                ^~~~~~~~
+ServerSGX/main.cpp:398:55: warning: declaration of ‘shape_bv’ shadows a previous local [-Wshadow]
+  398 |     VECTOR_BIAS_W_FILE(alexnet->bias2,shape_bn,bias_v,shape_bv,bias_npy_file);
+      |                                                       ^~~~~~~~
+ServerSGX/main.cpp:112:32: note: in definition of macro ‘VECTOR_BIAS_W_FILE’
+  112 |     std::vector<unsigned long> shapebv(shapebn,shapebn+1);          \
+      |                                ^~~~~~~
+ServerSGX/main.cpp:363:32: note: shadowed declaration is here
+  363 |     std::vector<unsigned long> shape_bv;
+      |                                ^~~~~~~~
+ServerSGX/main.cpp:418:60: warning: declaration of ‘shape_v’ shadows a previous local [-Wshadow]
+  418 |     VECTOR_DATA_W_FILE(features.layer2_pool,shape_n,data_v,shape_v,data_npy_file);
+      |                                                            ^~~~~~~
+ServerSGX/main.cpp:85:32: note: in definition of macro ‘VECTOR_DATA_W_FILE’
+   85 |     std::vector<unsigned long> shapev(shapen,shapen+4);     \
+      |                                ^~~~~~
+ServerSGX/main.cpp:353:32: note: shadowed declaration is here
+  353 |     std::vector<unsigned long> shape_v;
+      |                                ^~~~~~~
+ServerSGX/main.cpp:420:61: warning: declaration of ‘shape_wv’ shadows a previous local [-Wshadow]
+  420 |     VECTOR_WEIGHT_W_FILE(alexnet->weight3,shape_wn,weight_v,shape_wv,weight_npy_file);
+      |                                                             ^~~~~~~~
+ServerSGX/main.cpp:100:32: note: in definition of macro ‘VECTOR_WEIGHT_W_FILE’
+  100 |     std::vector<unsigned long> shapewv(shapewn,shapewn+4);          \
+      |                                ^~~~~~~
+ServerSGX/main.cpp:358:32: note: shadowed declaration is here
+  358 |     std::vector<unsigned long> shape_wv;
+      |                                ^~~~~~~~
+ServerSGX/main.cpp:422:55: warning: declaration of ‘shape_bv’ shadows a previous local [-Wshadow]
+  422 |     VECTOR_BIAS_W_FILE(alexnet->bias3,shape_bn,bias_v,shape_bv,bias_npy_file);
+      |                                                       ^~~~~~~~
+ServerSGX/main.cpp:112:32: note: in definition of macro ‘VECTOR_BIAS_W_FILE’
+  112 |     std::vector<unsigned long> shapebv(shapebn,shapebn+1);          \
+      |                                ^~~~~~~
+ServerSGX/main.cpp:363:32: note: shadowed declaration is here
+  363 |     std::vector<unsigned long> shape_bv;
+      |                                ^~~~~~~~
+ServerSGX/main.cpp:433:60: warning: declaration of ‘shape_v’ shadows a previous local [-Wshadow]
+  433 |     VECTOR_DATA_W_FILE(features.layer3_conv,shape_n,data_v,shape_v,data_npy_file);
+      |                                                            ^~~~~~~
+ServerSGX/main.cpp:85:32: note: in definition of macro ‘VECTOR_DATA_W_FILE’
+   85 |     std::vector<unsigned long> shapev(shapen,shapen+4);     \
+      |                                ^~~~~~
+ServerSGX/main.cpp:353:32: note: shadowed declaration is here
+  353 |     std::vector<unsigned long> shape_v;
+      |                                ^~~~~~~
+ServerSGX/main.cpp:435:61: warning: declaration of ‘shape_wv’ shadows a previous local [-Wshadow]
+  435 |     VECTOR_WEIGHT_W_FILE(alexnet->weight4,shape_wn,weight_v,shape_wv,weight_npy_file);
+      |                                                             ^~~~~~~~
+ServerSGX/main.cpp:100:32: note: in definition of macro ‘VECTOR_WEIGHT_W_FILE’
+  100 |     std::vector<unsigned long> shapewv(shapewn,shapewn+4);          \
+      |                                ^~~~~~~
+ServerSGX/main.cpp:358:32: note: shadowed declaration is here
+  358 |     std::vector<unsigned long> shape_wv;
+      |                                ^~~~~~~~
+ServerSGX/main.cpp:437:55: warning: declaration of ‘shape_bv’ shadows a previous local [-Wshadow]
+  437 |     VECTOR_BIAS_W_FILE(alexnet->bias4,shape_bn,bias_v,shape_bv,bias_npy_file);
+      |                                                       ^~~~~~~~
+ServerSGX/main.cpp:112:32: note: in definition of macro ‘VECTOR_BIAS_W_FILE’
+  112 |     std::vector<unsigned long> shapebv(shapebn,shapebn+1);          \
+      |                                ^~~~~~~
+ServerSGX/main.cpp:363:32: note: shadowed declaration is here
+  363 |     std::vector<unsigned long> shape_bv;
+      |                                ^~~~~~~~
+ServerSGX/main.cpp:444:60: warning: declaration of ‘shape_v’ shadows a previous local [-Wshadow]
+  444 |     VECTOR_DATA_W_FILE(features.layer4_conv,shape_n,data_v,shape_v,data_npy_file);
+      |                                                            ^~~~~~~
+ServerSGX/main.cpp:85:32: note: in definition of macro ‘VECTOR_DATA_W_FILE’
+   85 |     std::vector<unsigned long> shapev(shapen,shapen+4);     \
+      |                                ^~~~~~
+ServerSGX/main.cpp:353:32: note: shadowed declaration is here
+  353 |     std::vector<unsigned long> shape_v;
+      |                                ^~~~~~~
+ServerSGX/main.cpp:446:61: warning: declaration of ‘shape_wv’ shadows a previous local [-Wshadow]
+  446 |     VECTOR_WEIGHT_W_FILE(alexnet->weight5,shape_wn,weight_v,shape_wv,weight_npy_file);
+      |                                                             ^~~~~~~~
+ServerSGX/main.cpp:100:32: note: in definition of macro ‘VECTOR_WEIGHT_W_FILE’
+  100 |     std::vector<unsigned long> shapewv(shapewn,shapewn+4);          \
+      |                                ^~~~~~~
+ServerSGX/main.cpp:358:32: note: shadowed declaration is here
+  358 |     std::vector<unsigned long> shape_wv;
+      |                                ^~~~~~~~
+ServerSGX/main.cpp:448:55: warning: declaration of ‘shape_bv’ shadows a previous local [-Wshadow]
+  448 |     VECTOR_BIAS_W_FILE(alexnet->bias5,shape_bn,bias_v,shape_bv,bias_npy_file);
+      |                                                       ^~~~~~~~
+ServerSGX/main.cpp:112:32: note: in definition of macro ‘VECTOR_BIAS_W_FILE’
+  112 |     std::vector<unsigned long> shapebv(shapebn,shapebn+1);          \
+      |                                ^~~~~~~
+ServerSGX/main.cpp:363:32: note: shadowed declaration is here
+  363 |     std::vector<unsigned long> shape_bv;
+      |                                ^~~~~~~~
+ServerSGX/main.cpp:138:28: warning: conversion from ‘std::vector<double>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+  138 |     shapefn[1]=datav.size()/shapefn[0];                             \
+      |                            ^
+ServerSGX/main.cpp:471:5: note: in expansion of macro ‘VECTOR_FCData_W_FILE’
+  471 |     VECTOR_FCData_W_FILE(features.layer5_pool,shape_fn,data_v,shape_fv,data_npy_file);
+      |     ^~~~~~~~~~~~~~~~~~~~
+ServerSGX/main.cpp:471:63: warning: declaration of ‘shape_fv’ shadows a previous local [-Wshadow]
+  471 |     VECTOR_FCData_W_FILE(features.layer5_pool,shape_fn,data_v,shape_fv,data_npy_file);
+      |                                                               ^~~~~~~~
+ServerSGX/main.cpp:139:32: note: in definition of macro ‘VECTOR_FCData_W_FILE’
+  139 |     std::vector<unsigned long> shapefv(shapefn,shapefn + 2);         \
+      |                                ^~~~~~~
+ServerSGX/main.cpp:469:32: note: shadowed declaration is here
+  469 |     std::vector<unsigned long> shape_fv(2);
+      |                                ^~~~~~~~
+ServerSGX/main.cpp:474:51: warning: declaration of ‘shape_fv’ shadows a previous local [-Wshadow]
+  474 |     VECTOR_FC_W_FILE(alexnet->fc1,shape_fn,data_v,shape_fv,weight_npy_file);
+      |                                                   ^~~~~~~~
+ServerSGX/main.cpp:125:32: note: in definition of macro ‘VECTOR_FC_W_FILE’
+  125 |     std::vector<unsigned long> shapefv(shapefn,shapefn + 2);         \
+      |                                ^~~~~~~
+ServerSGX/main.cpp:469:32: note: shadowed declaration is here
+  469 |     std::vector<unsigned long> shape_fv(2);
+      |                                ^~~~~~~~
+ServerSGX/main.cpp:476:58: warning: declaration of ‘shape_fv’ shadows a previous local [-Wshadow]
+  476 |     VECTOR_BIAS_W_FILE(alexnet->bias_fc1,shape_fn,data_v,shape_fv,bias_npy_file);
+      |                                                          ^~~~~~~~
+ServerSGX/main.cpp:112:32: note: in definition of macro ‘VECTOR_BIAS_W_FILE’
+  112 |     std::vector<unsigned long> shapebv(shapebn,shapebn+1);          \
+      |                                ^~~~~~~
+ServerSGX/main.cpp:469:32: note: shadowed declaration is here
+  469 |     std::vector<unsigned long> shape_fv(2);
+      |                                ^~~~~~~~
+ServerSGX/main.cpp:483:51: warning: declaration of ‘shape_fv’ shadows a previous local [-Wshadow]
+  483 |     VECTOR_FC_W_FILE(features.fc1,shape_fn,data_v,shape_fv,data_npy_file);
+      |                                                   ^~~~~~~~
+ServerSGX/main.cpp:125:32: note: in definition of macro ‘VECTOR_FC_W_FILE’
+  125 |     std::vector<unsigned long> shapefv(shapefn,shapefn + 2);         \
+      |                                ^~~~~~~
+ServerSGX/main.cpp:469:32: note: shadowed declaration is here
+  469 |     std::vector<unsigned long> shape_fv(2);
+      |                                ^~~~~~~~
+ServerSGX/main.cpp:485:51: warning: declaration of ‘shape_fv’ shadows a previous local [-Wshadow]
+  485 |     VECTOR_FC_W_FILE(alexnet->fc2,shape_fn,data_v,shape_fv,weight_npy_file);
+      |                                                   ^~~~~~~~
+ServerSGX/main.cpp:125:32: note: in definition of macro ‘VECTOR_FC_W_FILE’
+  125 |     std::vector<unsigned long> shapefv(shapefn,shapefn + 2);         \
+      |                                ^~~~~~~
+ServerSGX/main.cpp:469:32: note: shadowed declaration is here
+  469 |     std::vector<unsigned long> shape_fv(2);
+      |                                ^~~~~~~~
+ServerSGX/main.cpp:487:58: warning: declaration of ‘shape_fv’ shadows a previous local [-Wshadow]
+  487 |     VECTOR_BIAS_W_FILE(alexnet->bias_fc2,shape_fn,data_v,shape_fv,bias_npy_file);
+      |                                                          ^~~~~~~~
+ServerSGX/main.cpp:112:32: note: in definition of macro ‘VECTOR_BIAS_W_FILE’
+  112 |     std::vector<unsigned long> shapebv(shapebn,shapebn+1);          \
+      |                                ^~~~~~~
+ServerSGX/main.cpp:469:32: note: shadowed declaration is here
+  469 |     std::vector<unsigned long> shape_fv(2);
+      |                                ^~~~~~~~
+ServerSGX/main.cpp:495:51: warning: declaration of ‘shape_fv’ shadows a previous local [-Wshadow]
+  495 |     VECTOR_FC_W_FILE(features.fc2,shape_fn,data_v,shape_fv,data_npy_file);
+      |                                                   ^~~~~~~~
+ServerSGX/main.cpp:125:32: note: in definition of macro ‘VECTOR_FC_W_FILE’
+  125 |     std::vector<unsigned long> shapefv(shapefn,shapefn + 2);         \
+      |                                ^~~~~~~
+ServerSGX/main.cpp:469:32: note: shadowed declaration is here
+  469 |     std::vector<unsigned long> shape_fv(2);
+      |                                ^~~~~~~~
+ServerSGX/main.cpp:497:51: warning: declaration of ‘shape_fv’ shadows a previous local [-Wshadow]
+  497 |     VECTOR_FC_W_FILE(alexnet->fc3,shape_fn,data_v,shape_fv,weight_npy_file);
+      |                                                   ^~~~~~~~
+ServerSGX/main.cpp:125:32: note: in definition of macro ‘VECTOR_FC_W_FILE’
+  125 |     std::vector<unsigned long> shapefv(shapefn,shapefn + 2);         \
+      |                                ^~~~~~~
+ServerSGX/main.cpp:469:32: note: shadowed declaration is here
+  469 |     std::vector<unsigned long> shape_fv(2);
+      |                                ^~~~~~~~
+ServerSGX/main.cpp:499:58: warning: declaration of ‘shape_fv’ shadows a previous local [-Wshadow]
+  499 |     VECTOR_BIAS_W_FILE(alexnet->bias_fc3,shape_fn,data_v,shape_fv,bias_npy_file);
+      |                                                          ^~~~~~~~
+ServerSGX/main.cpp:112:32: note: in definition of macro ‘VECTOR_BIAS_W_FILE’
+  112 |     std::vector<unsigned long> shapebv(shapebn,shapebn+1);          \
+      |                                ^~~~~~~
+ServerSGX/main.cpp:469:32: note: shadowed declaration is here
+  469 |     std::vector<unsigned long> shape_fv(2);
+      |                                ^~~~~~~~
+ServerSGX/main.cpp:506:26: warning: missing initializer for member ‘Feature::layer1_conv’ [-Wmissing-field-initializers]
+  506 |     Feature errors = { 0 };
+      |                          ^
+ServerSGX/main.cpp:506:26: warning: missing initializer for member ‘Feature::layer1_pool’ [-Wmissing-field-initializers]
+ServerSGX/main.cpp:506:26: warning: missing initializer for member ‘Feature::layer2_conv’ [-Wmissing-field-initializers]
+ServerSGX/main.cpp:506:26: warning: missing initializer for member ‘Feature::layer2_pool’ [-Wmissing-field-initializers]
+ServerSGX/main.cpp:506:26: warning: missing initializer for member ‘Feature::layer3_conv’ [-Wmissing-field-initializers]
+ServerSGX/main.cpp:506:26: warning: missing initializer for member ‘Feature::layer4_conv’ [-Wmissing-field-initializers]
+ServerSGX/main.cpp:506:26: warning: missing initializer for member ‘Feature::layer5_conv’ [-Wmissing-field-initializers]
+ServerSGX/main.cpp:506:26: warning: missing initializer for member ‘Feature::layer5_pool’ [-Wmissing-field-initializers]
+ServerSGX/main.cpp:506:26: warning: missing initializer for member ‘Feature::fc1’ [-Wmissing-field-initializers]
+ServerSGX/main.cpp:506:26: warning: missing initializer for member ‘Feature::fc2’ [-Wmissing-field-initializers]
+ServerSGX/main.cpp:506:26: warning: missing initializer for member ‘Feature::output’ [-Wmissing-field-initializers]
+ServerSGX/main.cpp:515:52: warning: declaration of ‘shape_fv’ shadows a previous local [-Wshadow]
+  515 |     VECTOR_FC_W_FILE(errors.output,shape_fn,data_v,shape_fv,outerror_npy_file);
+      |                                                    ^~~~~~~~
+ServerSGX/main.cpp:125:32: note: in definition of macro ‘VECTOR_FC_W_FILE’
+  125 |     std::vector<unsigned long> shapefv(shapefn,shapefn + 2);         \
+      |                                ^~~~~~~
+ServerSGX/main.cpp:469:32: note: shadowed declaration is here
+  469 |     std::vector<unsigned long> shape_fv(2);
+      |                                ^~~~~~~~
+ServerSGX/main.cpp:517:51: warning: declaration of ‘shape_fv’ shadows a previous local [-Wshadow]
+  517 |     VECTOR_FC_W_FILE(features.fc2,shape_fn,data_v,shape_fv,input_npy_file);
+      |                                                   ^~~~~~~~
+ServerSGX/main.cpp:125:32: note: in definition of macro ‘VECTOR_FC_W_FILE’
+  125 |     std::vector<unsigned long> shapefv(shapefn,shapefn + 2);         \
+      |                                ^~~~~~~
+ServerSGX/main.cpp:469:32: note: shadowed declaration is here
+  469 |     std::vector<unsigned long> shape_fv(2);
+      |                                ^~~~~~~~
+ServerSGX/main.cpp:519:51: warning: declaration of ‘shape_fv’ shadows a previous local [-Wshadow]
+  519 |     VECTOR_FC_W_FILE(alexnet->fc3,shape_fn,data_v,shape_fv,weight_npy_file);
+      |                                                   ^~~~~~~~
+ServerSGX/main.cpp:125:32: note: in definition of macro ‘VECTOR_FC_W_FILE’
+  125 |     std::vector<unsigned long> shapefv(shapefn,shapefn + 2);         \
+      |                                ^~~~~~~
+ServerSGX/main.cpp:469:32: note: shadowed declaration is here
+  469 |     std::vector<unsigned long> shape_fv(2);
+      |                                ^~~~~~~~
+ServerSGX/main.cpp:521:58: warning: declaration of ‘shape_fv’ shadows a previous local [-Wshadow]
+  521 |     VECTOR_BIAS_W_FILE(alexnet->bias_fc3,shape_fn,data_v,shape_fv,bias_npy_file);
+      |                                                          ^~~~~~~~
+ServerSGX/main.cpp:112:32: note: in definition of macro ‘VECTOR_BIAS_W_FILE’
+  112 |     std::vector<unsigned long> shapebv(shapebn,shapebn+1);          \
+      |                                ^~~~~~~
+ServerSGX/main.cpp:469:32: note: shadowed declaration is here
+  469 |     std::vector<unsigned long> shape_fv(2);
+      |                                ^~~~~~~~
+ServerSGX/main.cpp:536:49: warning: declaration of ‘shape_fv’ shadows a previous local [-Wshadow]
+  536 |     VECTOR_FC_W_FILE(errors.fc2,shape_fn,data_v,shape_fv,outerror_npy_file);
+      |                                                 ^~~~~~~~
+ServerSGX/main.cpp:125:32: note: in definition of macro ‘VECTOR_FC_W_FILE’
+  125 |     std::vector<unsigned long> shapefv(shapefn,shapefn + 2);         \
+      |                                ^~~~~~~
+ServerSGX/main.cpp:469:32: note: shadowed declaration is here
+  469 |     std::vector<unsigned long> shape_fv(2);
+      |                                ^~~~~~~~
+ServerSGX/main.cpp:538:51: warning: declaration of ‘shape_fv’ shadows a previous local [-Wshadow]
+  538 |     VECTOR_FC_W_FILE(features.fc1,shape_fn,data_v,shape_fv,input_npy_file);
+      |                                                   ^~~~~~~~
+ServerSGX/main.cpp:125:32: note: in definition of macro ‘VECTOR_FC_W_FILE’
+  125 |     std::vector<unsigned long> shapefv(shapefn,shapefn + 2);         \
+      |                                ^~~~~~~
+ServerSGX/main.cpp:469:32: note: shadowed declaration is here
+  469 |     std::vector<unsigned long> shape_fv(2);
+      |                                ^~~~~~~~
+ServerSGX/main.cpp:540:51: warning: declaration of ‘shape_fv’ shadows a previous local [-Wshadow]
+  540 |     VECTOR_FC_W_FILE(alexnet->fc2,shape_fn,data_v,shape_fv,weight_npy_file);
+      |                                                   ^~~~~~~~
+ServerSGX/main.cpp:125:32: note: in definition of macro ‘VECTOR_FC_W_FILE’
+  125 |     std::vector<unsigned long> shapefv(shapefn,shapefn + 2);         \
+      |                                ^~~~~~~
+ServerSGX/main.cpp:469:32: note: shadowed declaration is here
+  469 |     std::vector<unsigned long> shape_fv(2);
+      |                                ^~~~~~~~
+ServerSGX/main.cpp:542:58: warning: declaration of ‘shape_fv’ shadows a previous local [-Wshadow]
+  542 |     VECTOR_BIAS_W_FILE(alexnet->bias_fc2,shape_fn,data_v,shape_fv,bias_npy_file);
+      |                                                          ^~~~~~~~
+ServerSGX/main.cpp:112:32: note: in definition of macro ‘VECTOR_BIAS_W_FILE’
+  112 |     std::vector<unsigned long> shapebv(shapebn,shapebn+1);          \
+      |                                ^~~~~~~
+ServerSGX/main.cpp:469:32: note: shadowed declaration is here
+  469 |     std::vector<unsigned long> shape_fv(2);
+      |                                ^~~~~~~~
+ServerSGX/main.cpp:557:49: warning: declaration of ‘shape_fv’ shadows a previous local [-Wshadow]
+  557 |     VECTOR_FC_W_FILE(errors.fc1,shape_fn,data_v,shape_fv,outerror_npy_file);
+      |                                                 ^~~~~~~~
+ServerSGX/main.cpp:125:32: note: in definition of macro ‘VECTOR_FC_W_FILE’
+  125 |     std::vector<unsigned long> shapefv(shapefn,shapefn + 2);         \
+      |                                ^~~~~~~
+ServerSGX/main.cpp:469:32: note: shadowed declaration is here
+  469 |     std::vector<unsigned long> shape_fv(2);
+      |                                ^~~~~~~~
+ServerSGX/main.cpp:138:28: warning: conversion from ‘std::vector<double>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+  138 |     shapefn[1]=datav.size()/shapefn[0];                             \
+      |                            ^
+ServerSGX/main.cpp:559:5: note: in expansion of macro ‘VECTOR_FCData_W_FILE’
+  559 |     VECTOR_FCData_W_FILE(features.layer5_pool,shape_fn,data_v,shape_fv,input_npy_file);
+      |     ^~~~~~~~~~~~~~~~~~~~
+ServerSGX/main.cpp:559:63: warning: declaration of ‘shape_fv’ shadows a previous local [-Wshadow]
+  559 |     VECTOR_FCData_W_FILE(features.layer5_pool,shape_fn,data_v,shape_fv,input_npy_file);
+      |                                                               ^~~~~~~~
+ServerSGX/main.cpp:139:32: note: in definition of macro ‘VECTOR_FCData_W_FILE’
+  139 |     std::vector<unsigned long> shapefv(shapefn,shapefn + 2);         \
+      |                                ^~~~~~~
+ServerSGX/main.cpp:469:32: note: shadowed declaration is here
+  469 |     std::vector<unsigned long> shape_fv(2);
+      |                                ^~~~~~~~
+ServerSGX/main.cpp:561:51: warning: declaration of ‘shape_fv’ shadows a previous local [-Wshadow]
+  561 |     VECTOR_FC_W_FILE(alexnet->fc1,shape_fn,data_v,shape_fv,weight_npy_file);
+      |                                                   ^~~~~~~~
+ServerSGX/main.cpp:125:32: note: in definition of macro ‘VECTOR_FC_W_FILE’
+  125 |     std::vector<unsigned long> shapefv(shapefn,shapefn + 2);         \
+      |                                ^~~~~~~
+ServerSGX/main.cpp:469:32: note: shadowed declaration is here
+  469 |     std::vector<unsigned long> shape_fv(2);
+      |                                ^~~~~~~~
+ServerSGX/main.cpp:563:58: warning: declaration of ‘shape_fv’ shadows a previous local [-Wshadow]
+  563 |     VECTOR_BIAS_W_FILE(alexnet->bias_fc1,shape_fn,data_v,shape_fv,bias_npy_file);
+      |                                                          ^~~~~~~~
+ServerSGX/main.cpp:112:32: note: in definition of macro ‘VECTOR_BIAS_W_FILE’
+  112 |     std::vector<unsigned long> shapebv(shapebn,shapebn+1);          \
+      |                                ^~~~~~~
+ServerSGX/main.cpp:469:32: note: shadowed declaration is here
+  469 |     std::vector<unsigned long> shape_fv(2);
+      |                                ^~~~~~~~
+ServerSGX/main.cpp:579:25: warning: conversion from ‘sgx_enclave_id_t’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+  579 |     grad_stride_maxpool(global_server_eid,((double*)errors.layer5_pool),((double*)errors.layer5_conv),((double*)features.layer5_conv),LAYER5,LENGTH_FEATURE5_1,n_out,n_in,kernel=3,stride=2);
+      |                         ^~~~~~~~~~~~~~~~~
+ServerSGX/main.cpp:583:15: warning: conversion from ‘sgx_enclave_id_t’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+  583 |     grad_relu(global_server_eid,((double*)errors.layer5_conv),GETCOUNT(errors.layer5_conv));
+      |               ^~~~~~~~~~~~~~~~~
+ServerSGX/main.cpp:585:59: warning: declaration of ‘shape_v’ shadows a previous local [-Wshadow]
+  585 |     VECTOR_DATA_W_FILE(errors.layer5_conv,shape_n, data_v,shape_v,outerror_npy_file);
+      |                                                           ^~~~~~~
+ServerSGX/main.cpp:85:32: note: in definition of macro ‘VECTOR_DATA_W_FILE’
+   85 |     std::vector<unsigned long> shapev(shapen,shapen+4);     \
+      |                                ^~~~~~
+ServerSGX/main.cpp:353:32: note: shadowed declaration is here
+  353 |     std::vector<unsigned long> shape_v;
+      |                                ^~~~~~~
+ServerSGX/main.cpp:587:62: warning: declaration of ‘shape_wv’ shadows a previous local [-Wshadow]
+  587 |     VECTOR_WEIGHT_W_FILE(alexnet->weight5,shape_wn, weight_v,shape_wv,weight_npy_file);
+      |                                                              ^~~~~~~~
+ServerSGX/main.cpp:100:32: note: in definition of macro ‘VECTOR_WEIGHT_W_FILE’
+  100 |     std::vector<unsigned long> shapewv(shapewn,shapewn+4);          \
+      |                                ^~~~~~~
+ServerSGX/main.cpp:358:32: note: shadowed declaration is here
+  358 |     std::vector<unsigned long> shape_wv;
+      |                                ^~~~~~~~
+ServerSGX/main.cpp:589:55: warning: declaration of ‘shape_bv’ shadows a previous local [-Wshadow]
+  589 |     VECTOR_BIAS_W_FILE(alexnet->bias5,shape_bn,bias_v,shape_bv,bias_npy_file);
+      |                                                       ^~~~~~~~
+ServerSGX/main.cpp:112:32: note: in definition of macro ‘VECTOR_BIAS_W_FILE’
+  112 |     std::vector<unsigned long> shapebv(shapebn,shapebn+1);          \
+      |                                ^~~~~~~
+ServerSGX/main.cpp:363:32: note: shadowed declaration is here
+  363 |     std::vector<unsigned long> shape_bv;
+      |                                ^~~~~~~~
+ServerSGX/main.cpp:591:61: warning: declaration of ‘shape_v’ shadows a previous local [-Wshadow]
+  591 |     VECTOR_DATA_W_FILE(features.layer4_conv,shape_n, data_v,shape_v,input_npy_file);
+      |                                                             ^~~~~~~
+ServerSGX/main.cpp:85:32: note: in definition of macro ‘VECTOR_DATA_W_FILE’
+   85 |     std::vector<unsigned long> shapev(shapen,shapen+4);     \
+      |                                ^~~~~~
+ServerSGX/main.cpp:353:32: note: shadowed declaration is here
+  353 |     std::vector<unsigned long> shape_v;
+      |                                ^~~~~~~
+ServerSGX/main.cpp:605:15: warning: conversion from ‘sgx_enclave_id_t’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+  605 |     grad_relu(global_server_eid,((double*)errors.layer4_conv),GETCOUNT(errors.layer4_conv));
+      |               ^~~~~~~~~~~~~~~~~
+ServerSGX/main.cpp:607:59: warning: declaration of ‘shape_v’ shadows a previous local [-Wshadow]
+  607 |     VECTOR_DATA_W_FILE(errors.layer4_conv,shape_n, data_v,shape_v,outerror_npy_file);
+      |                                                           ^~~~~~~
+ServerSGX/main.cpp:85:32: note: in definition of macro ‘VECTOR_DATA_W_FILE’
+   85 |     std::vector<unsigned long> shapev(shapen,shapen+4);     \
+      |                                ^~~~~~
+ServerSGX/main.cpp:353:32: note: shadowed declaration is here
+  353 |     std::vector<unsigned long> shape_v;
+      |                                ^~~~~~~
+ServerSGX/main.cpp:609:62: warning: declaration of ‘shape_wv’ shadows a previous local [-Wshadow]
+  609 |     VECTOR_WEIGHT_W_FILE(alexnet->weight4,shape_wn, weight_v,shape_wv,weight_npy_file);
+      |                                                              ^~~~~~~~
+ServerSGX/main.cpp:100:32: note: in definition of macro ‘VECTOR_WEIGHT_W_FILE’
+  100 |     std::vector<unsigned long> shapewv(shapewn,shapewn+4);          \
+      |                                ^~~~~~~
+ServerSGX/main.cpp:358:32: note: shadowed declaration is here
+  358 |     std::vector<unsigned long> shape_wv;
+      |                                ^~~~~~~~
+ServerSGX/main.cpp:611:55: warning: declaration of ‘shape_bv’ shadows a previous local [-Wshadow]
+  611 |     VECTOR_BIAS_W_FILE(alexnet->bias4,shape_bn,bias_v,shape_bv,bias_npy_file);
+      |                                                       ^~~~~~~~
+ServerSGX/main.cpp:112:32: note: in definition of macro ‘VECTOR_BIAS_W_FILE’
+  112 |     std::vector<unsigned long> shapebv(shapebn,shapebn+1);          \
+      |                                ^~~~~~~
+ServerSGX/main.cpp:363:32: note: shadowed declaration is here
+  363 |     std::vector<unsigned long> shape_bv;
+      |                                ^~~~~~~~
+ServerSGX/main.cpp:613:61: warning: declaration of ‘shape_v’ shadows a previous local [-Wshadow]
+  613 |     VECTOR_DATA_W_FILE(features.layer3_conv,shape_n, data_v,shape_v,input_npy_file);
+      |                                                             ^~~~~~~
+ServerSGX/main.cpp:85:32: note: in definition of macro ‘VECTOR_DATA_W_FILE’
+   85 |     std::vector<unsigned long> shapev(shapen,shapen+4);     \
+      |                                ^~~~~~
+ServerSGX/main.cpp:353:32: note: shadowed declaration is here
+  353 |     std::vector<unsigned long> shape_v;
+      |                                ^~~~~~~
+ServerSGX/main.cpp:630:15: warning: conversion from ‘sgx_enclave_id_t’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+  630 |     grad_relu(global_server_eid,((double*)errors.layer3_conv),GETCOUNT(errors.layer4_conv));
+      |               ^~~~~~~~~~~~~~~~~
+ServerSGX/main.cpp:632:59: warning: declaration of ‘shape_v’ shadows a previous local [-Wshadow]
+  632 |     VECTOR_DATA_W_FILE(errors.layer3_conv,shape_n, data_v,shape_v,outerror_npy_file);
+      |                                                           ^~~~~~~
+ServerSGX/main.cpp:85:32: note: in definition of macro ‘VECTOR_DATA_W_FILE’
+   85 |     std::vector<unsigned long> shapev(shapen,shapen+4);     \
+      |                                ^~~~~~
+ServerSGX/main.cpp:353:32: note: shadowed declaration is here
+  353 |     std::vector<unsigned long> shape_v;
+      |                                ^~~~~~~
+ServerSGX/main.cpp:634:62: warning: declaration of ‘shape_wv’ shadows a previous local [-Wshadow]
+  634 |     VECTOR_WEIGHT_W_FILE(alexnet->weight3,shape_wn, weight_v,shape_wv,weight_npy_file);
+      |                                                              ^~~~~~~~
+ServerSGX/main.cpp:100:32: note: in definition of macro ‘VECTOR_WEIGHT_W_FILE’
+  100 |     std::vector<unsigned long> shapewv(shapewn,shapewn+4);          \
+      |                                ^~~~~~~
+ServerSGX/main.cpp:358:32: note: shadowed declaration is here
+  358 |     std::vector<unsigned long> shape_wv;
+      |                                ^~~~~~~~
+ServerSGX/main.cpp:636:55: warning: declaration of ‘shape_bv’ shadows a previous local [-Wshadow]
+  636 |     VECTOR_BIAS_W_FILE(alexnet->bias3,shape_bn,bias_v,shape_bv,bias_npy_file);
+      |                                                       ^~~~~~~~
+ServerSGX/main.cpp:112:32: note: in definition of macro ‘VECTOR_BIAS_W_FILE’
+  112 |     std::vector<unsigned long> shapebv(shapebn,shapebn+1);          \
+      |                                ^~~~~~~
+ServerSGX/main.cpp:363:32: note: shadowed declaration is here
+  363 |     std::vector<unsigned long> shape_bv;
+      |                                ^~~~~~~~
+ServerSGX/main.cpp:638:61: warning: declaration of ‘shape_v’ shadows a previous local [-Wshadow]
+  638 |     VECTOR_DATA_W_FILE(features.layer2_pool,shape_n, data_v,shape_v,input_npy_file);
+      |                                                             ^~~~~~~
+ServerSGX/main.cpp:85:32: note: in definition of macro ‘VECTOR_DATA_W_FILE’
+   85 |     std::vector<unsigned long> shapev(shapen,shapen+4);     \
+      |                                ^~~~~~
+ServerSGX/main.cpp:353:32: note: shadowed declaration is here
+  353 |     std::vector<unsigned long> shape_v;
+      |                                ^~~~~~~
+ServerSGX/main.cpp:651:17: warning: conversion from ‘sgx_enclave_id_t’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+  651 |    grad_maxpool(global_server_eid,((double*)errors.layer2_pool),((double*)errors.layer2_conv),((double*)features.layer2_conv),GETLENGTH(*errors.layer2_conv),GETLENGTH(**errors.layer2_conv),GETCOUNT(errors.layer2_pool),GETCOUNT(errors.layer2_conv));
+      |                 ^~~~~~~~~~~~~~~~~
+ServerSGX/main.cpp:654:15: warning: conversion from ‘sgx_enclave_id_t’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+  654 |     grad_relu(global_server_eid,((double*)errors.layer2_conv),GETCOUNT(errors.layer2_conv));
+      |               ^~~~~~~~~~~~~~~~~
+ServerSGX/main.cpp:656:59: warning: declaration of ‘shape_v’ shadows a previous local [-Wshadow]
+  656 |     VECTOR_DATA_W_FILE(errors.layer2_conv,shape_n, data_v,shape_v,outerror_npy_file);
+      |                                                           ^~~~~~~
+ServerSGX/main.cpp:85:32: note: in definition of macro ‘VECTOR_DATA_W_FILE’
+   85 |     std::vector<unsigned long> shapev(shapen,shapen+4);     \
+      |                                ^~~~~~
+ServerSGX/main.cpp:353:32: note: shadowed declaration is here
+  353 |     std::vector<unsigned long> shape_v;
+      |                                ^~~~~~~
+ServerSGX/main.cpp:658:62: warning: declaration of ‘shape_wv’ shadows a previous local [-Wshadow]
+  658 |     VECTOR_WEIGHT_W_FILE(alexnet->weight2,shape_wn, weight_v,shape_wv,weight_npy_file);
+      |                                                              ^~~~~~~~
+ServerSGX/main.cpp:100:32: note: in definition of macro ‘VECTOR_WEIGHT_W_FILE’
+  100 |     std::vector<unsigned long> shapewv(shapewn,shapewn+4);          \
+      |                                ^~~~~~~
+ServerSGX/main.cpp:358:32: note: shadowed declaration is here
+  358 |     std::vector<unsigned long> shape_wv;
+      |                                ^~~~~~~~
+ServerSGX/main.cpp:660:55: warning: declaration of ‘shape_bv’ shadows a previous local [-Wshadow]
+  660 |     VECTOR_BIAS_W_FILE(alexnet->bias2,shape_bn,bias_v,shape_bv,bias_npy_file);
+      |                                                       ^~~~~~~~
+ServerSGX/main.cpp:112:32: note: in definition of macro ‘VECTOR_BIAS_W_FILE’
+  112 |     std::vector<unsigned long> shapebv(shapebn,shapebn+1);          \
+      |                                ^~~~~~~
+ServerSGX/main.cpp:363:32: note: shadowed declaration is here
+  363 |     std::vector<unsigned long> shape_bv;
+      |                                ^~~~~~~~
+ServerSGX/main.cpp:662:61: warning: declaration of ‘shape_v’ shadows a previous local [-Wshadow]
+  662 |     VECTOR_DATA_W_FILE(features.layer1_pool,shape_n, data_v,shape_v,input_npy_file);
+      |                                                             ^~~~~~~
+ServerSGX/main.cpp:85:32: note: in definition of macro ‘VECTOR_DATA_W_FILE’
+   85 |     std::vector<unsigned long> shapev(shapen,shapen+4);     \
+      |                                ^~~~~~
+ServerSGX/main.cpp:353:32: note: shadowed declaration is here
+  353 |     std::vector<unsigned long> shape_v;
+      |                                ^~~~~~~
+ServerSGX/main.cpp:677:17: warning: conversion from ‘sgx_enclave_id_t’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+  677 |    grad_maxpool(global_server_eid,((double*)errors.layer1_pool),((double*)errors.layer1_conv),((double*)features.layer1_conv),GETLENGTH(*errors.layer1_conv),GETLENGTH(**errors.layer1_conv),GETCOUNT(errors.layer1_pool),GETCOUNT(errors.layer1_conv));
+      |                 ^~~~~~~~~~~~~~~~~
+ServerSGX/main.cpp:680:15: warning: conversion from ‘sgx_enclave_id_t’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+  680 |     grad_relu(global_server_eid,((double*)errors.layer1_conv),GETCOUNT(errors.layer1_conv));
+      |               ^~~~~~~~~~~~~~~~~
+ServerSGX/main.cpp:682:59: warning: declaration of ‘shape_v’ shadows a previous local [-Wshadow]
+  682 |     VECTOR_DATA_W_FILE(errors.layer1_conv,shape_n, data_v,shape_v,outerror_npy_file);
+      |                                                           ^~~~~~~
+ServerSGX/main.cpp:85:32: note: in definition of macro ‘VECTOR_DATA_W_FILE’
+   85 |     std::vector<unsigned long> shapev(shapen,shapen+4);     \
+      |                                ^~~~~~
+ServerSGX/main.cpp:353:32: note: shadowed declaration is here
+  353 |     std::vector<unsigned long> shape_v;
+      |                                ^~~~~~~
+ServerSGX/main.cpp:684:62: warning: declaration of ‘shape_wv’ shadows a previous local [-Wshadow]
+  684 |     VECTOR_WEIGHT_W_FILE(alexnet->weight1,shape_wn, weight_v,shape_wv,weight_npy_file);
+      |                                                              ^~~~~~~~
+ServerSGX/main.cpp:100:32: note: in definition of macro ‘VECTOR_WEIGHT_W_FILE’
+  100 |     std::vector<unsigned long> shapewv(shapewn,shapewn+4);          \
+      |                                ^~~~~~~
+ServerSGX/main.cpp:358:32: note: shadowed declaration is here
+  358 |     std::vector<unsigned long> shape_wv;
+      |                                ^~~~~~~~
+ServerSGX/main.cpp:686:55: warning: declaration of ‘shape_bv’ shadows a previous local [-Wshadow]
+  686 |     VECTOR_BIAS_W_FILE(alexnet->bias1,shape_bn,bias_v,shape_bv,bias_npy_file);
+      |                                                       ^~~~~~~~
+ServerSGX/main.cpp:112:32: note: in definition of macro ‘VECTOR_BIAS_W_FILE’
+  112 |     std::vector<unsigned long> shapebv(shapebn,shapebn+1);          \
+      |                                ^~~~~~~
+ServerSGX/main.cpp:363:32: note: shadowed declaration is here
+  363 |     std::vector<unsigned long> shape_bv;
+      |                                ^~~~~~~~
+ServerSGX/main.cpp:688:55: warning: declaration of ‘shape_v’ shadows a previous local [-Wshadow]
+  688 |     VECTOR_DATA_W_FILE(features.input,shape_n, data_v,shape_v,input_npy_file);
+      |                                                       ^~~~~~~
+ServerSGX/main.cpp:85:32: note: in definition of macro ‘VECTOR_DATA_W_FILE’
+   85 |     std::vector<unsigned long> shapev(shapen,shapen+4);     \
+      |                                ^~~~~~
+ServerSGX/main.cpp:353:32: note: shadowed declaration is here
+  353 |     std::vector<unsigned long> shape_v;
+      |                                ^~~~~~~
+ServerSGX/main.cpp:239:14: warning: unused parameter ‘argc’ [-Wunused-parameter]
+  239 | int main(int argc){
+      |          ~~~~^~~~
+tcs_num 10, tcs_max_num 10, tcs_min_pool 1
+[0;32mINFO: Enclave configuration 'MiscSelect' and 'MiscSelectMask' will prevent enclave from using dynamic features. To use the dynamic features on SGX2 platform, suggest to set MiscMask[0]=0 and MiscSelect[0]=1.
+[0mThe required memory is 739119104B.
+The required memory is 0x2c0e1000, 721796 KB.
+handle_compatible_metadata: Overwrite with metadata version 0x100000004
+Succeed.
+<EnclaveConfiguration>
+    <ProdID>0</ProdID>
+    <ISVSVN>0</ISVSVN>
+    <StackMaxSize>0x4000000</StackMaxSize>
+    <HeapMaxSize>0x4000000</HeapMaxSize>
+    <TCSNum>10</TCSNum>
+    <TCSPolicy>1</TCSPolicy>
+    <!-- Recommend changing 'DisableDebug' to 1 to make the enclave undebuggable for enclave release -->
+    <DisableDebug>0</DisableDebug>
+    <MiscSelect>0</MiscSelect>
+    <MiscMask>0xFFFFFFFF</MiscMask>
+</EnclaveConfiguration>
+SIGN =>  enclave.signed.so
+CXX  <=  ServerSGX/main.cpp
+The ServerSGX_Cpp_Objects are ServerSGX/main.o ServerSGX/hybridsgx_util.o ServerSGX/util/basicSockets.o ServerSGX/util/connect.o ServerSGX/util/Profiler.o ServerSGX/Edger8rSyntax/Arrays.o ServerSGX/Edger8rSyntax/Functions.o ServerSGX/Edger8rSyntax/Pointers.o ServerSGX/Edger8rSyntax/Types.o ServerSGX/Edger8rSyntax/Arrays.o ServerSGX/Edger8rSyntax/Functions.o ServerSGX/Edger8rSyntax/Pointers.o ServerSGX/Edger8rSyntax/Types.o ServerSGX/TrustedLibrary/Libc.o ServerSGX/TrustedLibrary/Libcxx.o ServerSGX/TrustedLibrary/Thread.o
+The ServerSGX_Link_Flags are -fPIC -Wno-attributes -IInclude -IServerSGX -I/opt/intel/sgxsdk/include -fopenmp
+Here is main_cpp running
+The project has been built in debug hardware mode.
+make[1]: Leaving directory '/home/jin/2023_11_22_com_model/AlexNet_GPU_SGX_without_com/server_sgx'
