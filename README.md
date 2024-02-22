@@ -16,5 +16,5 @@ socket
 openmp
 ```
 # Run
-```$ make ````
-```$ ./main```
+```$ make
+   $ ./main```
