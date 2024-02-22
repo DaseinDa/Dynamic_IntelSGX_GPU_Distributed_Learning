@@ -9,6 +9,8 @@ g++17
 gcc11
 cuda12.3
 Intel SGX 2.23
+socket
+openmp
 ```
 #Run
 ```$ make ````
